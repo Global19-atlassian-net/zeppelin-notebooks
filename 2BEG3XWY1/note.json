@@ -1,8 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "%md\n\n## multi user login setup\n\nhttps://github.com/apache/incubator-zeppelin/blob/master/SECURITY-README.md\nhttp://shiro.apache.org/configuration.html#Configuration-EncryptingPasswords\n\n",
-      "dateUpdated": "Feb 27, 2016 11:28:17 AM",
+      "text": "%md\n\n## multi user login setup\n\n### useful links\n\nhttps://github.com/apache/incubator-zeppelin/blob/master/SECURITY-README.md\nhttp://shiro.apache.org/configuration.html#Configuration-EncryptingPasswords\n\n",
+      "dateUpdated": "Feb 27, 2016 11:28:27 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
