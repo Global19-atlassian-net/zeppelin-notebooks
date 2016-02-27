@@ -66,7 +66,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect age, count(1) value\nfrom bank \nwhere age \u003c 30 \ngroup by age \norder by age",
+      "text": "%sql \nselect age, count(1) value\nfrom bank \nwhere age \u003c 29\ngroup by age \norder by age",
+      "dateUpdated": "Feb 26, 2016 10:50:01 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
@@ -100,7 +101,9 @@
               "aggr": "sum"
             }
           }
-        }
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
       },
       "settings": {
         "params": {},
@@ -333,7 +336,21 @@
   ],
   "name": "Zeppelin Tutorial",
   "id": "2A94M5J1Z",
-  "angularObjects": {},
+  "angularObjects": {
+    "2BC4PK6ZQ": [],
+    "2BC1EQWGY": [],
+    "2BCM7EZYC": [],
+    "2BFAHJ75U": [],
+    "2BCDSU3BH": [],
+    "2BFFJKBCS": [],
+    "2BDR1NNQX": [],
+    "2BBZ33TV9": [],
+    "2BBR4CWMF": [],
+    "2BCTS3GY2": [],
+    "2BE9P6DTD": [],
+    "2BBTTBJK1": [],
+    "2BDFU8JDA": []
+  },
   "config": {
     "looknfeel": "default"
   },
