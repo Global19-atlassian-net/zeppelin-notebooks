@@ -23,8 +23,15 @@
       },
       "jobName": "paragraph_1456610723859_756353539",
       "id": "20160227-140523_23440935",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003ePDB Statistics\u003c/h1\u003e\n"
+      },
       "dateCreated": "Feb 27, 2016 2:05:23 PM",
-      "status": "READY",
+      "dateStarted": "Feb 27, 2016 2:06:26 PM",
+      "dateFinished": "Feb 27, 2016 2:06:26 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
