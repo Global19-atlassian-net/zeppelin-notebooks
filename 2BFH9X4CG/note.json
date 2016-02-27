@@ -1,7 +1,22 @@
 {
   "paragraphs": [
     {
-      "config": {},
+      "text": "%md \n\n# PDB Statistics",
+      "dateUpdated": "Feb 27, 2016 2:06:26 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -9,6 +24,18 @@
       "jobName": "paragraph_1456610723859_756353539",
       "id": "20160227-140523_23440935",
       "dateCreated": "Feb 27, 2016 2:05:23 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1456610786820_179458407",
+      "id": "20160227-140626_2047485672",
+      "dateCreated": "Feb 27, 2016 2:06:26 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
