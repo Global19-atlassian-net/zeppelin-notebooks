@@ -60,12 +60,12 @@
       "id": "20150210-015259_1403135953",
       "result": {
         "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\nbankText: org.apache.spark.rdd.RDD[String] \u003d ParallelCollectionRDD[32] at parallelize at \u003cconsole\u003e:65\ndefined class Bank\nbank: org.apache.spark.sql.DataFrame \u003d [age: int, job: string, marital: string, education: string, balance: int]\n"
+        "type": "HTML",
+        "msg": "\u003cp\u003eimport org.apache.commons.io.IOUtils\n\u003cbr  /\u003eimport java.net.URL\n\u003cbr  /\u003eimport java.nio.charset.Charset\u003c/p\u003e\n\u003cp\u003e// Zeppelin creates and injects sc (SparkContext) and sqlContext (HiveContext or SqlContext)\n\u003cbr  /\u003e// So you don\u0027t need create them manually\u003c/p\u003e\n\u003cp\u003e// load bank data\n\u003cbr  /\u003eval bankText \u003d sc.parallelize(\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eIOUtils.toString(\n    new URL(\"https://s3.amazonaws.com/apache-zeppelin/tutorial/bank/bank.csv\"),\n    Charset.forName(\"utf8\")).split(\"\\n\"))\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003ecase class Bank(age: Integer, job: String, marital: String, education: String, balance: Integer)\u003c/p\u003e\n\u003cp\u003eval bank \u003d bankText.map(s \u003d\u003e s.split(\u0026ldquo;;\u0026ldquo;)).filter(s \u003d\u003e s(0) !\u003d \u0026ldquo;\"age\"\u0026ldquo;).map(\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003es \u003d\u0026gt; Bank(s(0).toInt, \n        s(1).replaceAll(\"\\\"\", \"\"),\n        s(2).replaceAll(\"\\\"\", \"\"),\n        s(3).replaceAll(\"\\\"\", \"\"),\n        s(5).replaceAll(\"\\\"\", \"\").toInt\n    )\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e).toDF()\n\u003cbr  /\u003ebank.registerTempTable(\u0026ldquo;bank\u0026rdquo;)\u003c/p\u003e\n"
       },
       "dateCreated": "Feb 10, 2015 1:52:59 AM",
-      "dateStarted": "Jul 3, 2015 1:43:40 PM",
-      "dateFinished": "Jul 3, 2015 1:43:45 PM",
+      "dateStarted": "Feb 26, 2016 10:50:50 PM",
+      "dateFinished": "Feb 26, 2016 10:50:50 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
