@@ -181,14 +181,15 @@
       "jobName": "paragraph_1423720444030_-1424110477",
       "id": "20150212-145404_867439529",
       "result": {
-        "code": "SUCCESS",
-        "type": "TABLE",
-        "msg": "age\tvalue\n19\t4\n20\t3\n21\t7\n22\t9\n23\t20\n24\t24\n25\t44\n26\t77\n27\t94\n28\t103\n29\t97\n30\t150\n31\t199\n32\t224\n33\t186\n34\t231\n"
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "sql interpreter not found"
       },
       "dateCreated": "Feb 12, 2015 2:54:04 PM",
       "dateStarted": "Jul 3, 2015 1:43:28 PM",
       "dateFinished": "Jul 3, 2015 1:43:29 PM",
-      "status": "FINISHED",
+      "status": "ERROR",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
