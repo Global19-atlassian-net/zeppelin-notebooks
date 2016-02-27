@@ -1,6 +1,19 @@
 {
-  "paragraphs": [],
-  "name": "",
+  "paragraphs": [
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1456610723859_756353539",
+      "id": "20160227-140523_23440935",
+      "dateCreated": "Feb 27, 2016 2:05:23 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "PDB stats",
   "id": "2BFH9X4CG",
   "angularObjects": {
     "2BC4PK6ZQ": [],
