@@ -24,8 +24,15 @@
       },
       "jobName": "paragraph_1456601151143_2071153928",
       "id": "20160227-112551_1357241155",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003emulti user login setup\u003c/p\u003e\n\u003cp\u003ehttp://shiro.apache.org/configuration.html#Configuration-EncryptingPasswords\u003c/p\u003e\n"
+      },
       "dateCreated": "Feb 27, 2016 11:25:51 AM",
-      "status": "READY",
+      "dateStarted": "Feb 27, 2016 11:26:27 AM",
+      "dateFinished": "Feb 27, 2016 11:26:27 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
