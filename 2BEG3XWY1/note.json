@@ -27,11 +27,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch2\u003emulti user login setup\u003c/h2\u003e\n\u003cp\u003ehttps://github.com/apache/incubator-zeppelin/blob/master/SECURITY-README.md\n\u003cbr  /\u003ehttp://shiro.apache.org/configuration.html#Configuration-EncryptingPasswords\u003c/p\u003e\n"
+        "msg": "\u003ch2\u003emulti user login setup\u003c/h2\u003e\n\u003ch3\u003euseful links\u003c/h3\u003e\n\u003cp\u003ehttps://github.com/apache/incubator-zeppelin/blob/master/SECURITY-README.md\n\u003cbr  /\u003ehttp://shiro.apache.org/configuration.html#Configuration-EncryptingPasswords\u003c/p\u003e\n"
       },
       "dateCreated": "Feb 27, 2016 11:25:51 AM",
-      "dateStarted": "Feb 27, 2016 11:27:58 AM",
-      "dateFinished": "Feb 27, 2016 11:27:58 AM",
+      "dateStarted": "Feb 27, 2016 11:28:27 AM",
+      "dateFinished": "Feb 27, 2016 11:28:27 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
