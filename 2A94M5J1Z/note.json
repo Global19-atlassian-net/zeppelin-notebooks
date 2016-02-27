@@ -190,12 +190,12 @@
       "dateCreated": "Feb 12, 2015 2:54:04 PM",
       "dateStarted": "Feb 27, 2016 2:44:51 PM",
       "dateFinished": "Feb 27, 2016 2:44:52 PM",
-      "status": "ERROR",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%sql \nselect age, count(1) value \nfrom bank \nwhere marital\u003d\"${marital\u003dsingle,single|divorced|married}\" \ngroup by age \norder by age",
-      "dateUpdated": "Feb 27, 2016 2:44:49 PM",
+      "dateUpdated": "Feb 27, 2016 2:44:59 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
