@@ -35,8 +35,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\n\n// Zeppelin creates and injects sc (SparkContext) and sqlContext (HiveContext or SqlContext)\n// So you don\u0027t need create them manually\n\n// load bank data\nval bankText \u003d sc.parallelize(\n    IOUtils.toString(\n        new URL(\"https://s3.amazonaws.com/apache-zeppelin/tutorial/bank/bank.csv\"),\n        Charset.forName(\"utf8\")).split(\"\\n\"))",
-      "dateUpdated": "Feb 27, 2016 2:06:40 PM",
+      "text": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\n\n// Zeppelin creates and injects sc (SparkContext) and sqlContext (HiveContext or SqlContext)\n// So you don\u0027t need create them manually\n\n// load bank data\nval bankText \u003d sc.parallelize(\n    IOUtils.toString(\n        new URL(\"https://github.com/rcsb/dataframes/blob/master/json/v_structure_summary.2015_08_10.json.gz\"),\n        Charset.forName(\"utf8\")).split(\"\\n\"))",
+      "dateUpdated": "Feb 27, 2016 2:07:12 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -57,6 +57,18 @@
       "jobName": "paragraph_1456610786820_179458407",
       "id": "20160227-140626_2047485672",
       "dateCreated": "Feb 27, 2016 2:06:26 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1456610832784_1591764351",
+      "id": "20160227-140712_437678833",
+      "dateCreated": "Feb 27, 2016 2:07:12 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
