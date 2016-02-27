@@ -1,7 +1,7 @@
 {
   "paragraphs": [
     {
-      "dateUpdated": "Feb 27, 2016 11:25:56 AM",
+      "dateUpdated": "Feb 27, 2016 11:25:57 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -15,7 +15,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
