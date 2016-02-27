@@ -1,7 +1,22 @@
 {
   "paragraphs": [
     {
-      "config": {},
+      "dateUpdated": "Feb 27, 2016 11:25:56 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
+      },
       "settings": {
         "params": {},
         "forms": {}
