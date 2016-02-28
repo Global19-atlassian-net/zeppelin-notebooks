@@ -70,8 +70,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "val resolution \u003d ssummary.select(\"resolution\")\nval count \u003d ssummary.select(\"structure_molecular_weight\");\n\n\n",
-      "dateUpdated": "Feb 28, 2016 1:43:22 PM",
+      "text": "%sql\n\nselect resolution, structure_molecular_weight\nfrom ssummary\n\n",
+      "dateUpdated": "Feb 28, 2016 1:45:26 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -102,7 +102,7 @@
           }
         },
         "enabled": true,
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/sql"
       },
       "settings": {
         "params": {},
