@@ -70,8 +70,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "\nssummary.max(\"resolution\")\n",
-      "dateUpdated": "Feb 28, 2016 2:18:17 PM",
+      "text": "\nssummary.agg(max(\"resolution\"))\n",
+      "dateUpdated": "Feb 28, 2016 2:18:33 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
