@@ -99,7 +99,7 @@
       "dateCreated": "Feb 27, 2016 10:24:31 PM",
       "dateStarted": "Feb 28, 2016 8:11:59 AM",
       "dateFinished": "Feb 28, 2016 8:12:01 AM",
-      "status": "FINISHED",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {
