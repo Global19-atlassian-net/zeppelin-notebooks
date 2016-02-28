@@ -138,8 +138,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "val ssummary \u003d structText.map(s \u003d\u003e s.split(\";\")).filter(s \u003d\u003e s(0) !\u003d \"\\\"age\\\"\").map(\n    s \u003d\u003e StrucSummary(s(0).replaceAll(\"\\\"\", \"\"), \n            s(1).replaceAll(\"\\\"\", \"\"),\n            s(2).replaceAll(\"\\\"\", \"\"),\n            s(3).replaceAll(\"\\\"\", \"\"),\n            s(4).replaceAll(\"\\\"\", \"\"),\n            s(5).replaceAll(\"\\\"\", \"\").toFloat,\n            s(6).replaceAll(\"\\\"\", \"\"),\n            s(7).replaceAll(\"\\\"\", \"\"), \n            s(8).replaceAll(\"\\\"\", \"\"),\n            s(9).replaceAll(\"\\\"\", \"\").toFloat,        \n            s(10).replaceAll(\"\\\"\", \"\"),        \n        )\n).toDF()\nssummary.registerTempTable(\"ssummary\")",
-      "dateUpdated": "Feb 27, 2016 10:31:08 PM",
+      "text": "val ssummary \u003d structText.map(s \u003d\u003e s.split(\";\")).filter(s \u003d\u003e s(0) !\u003d \"\\\"age\\\"\").map(\n    s \u003d\u003e StrucSummary(s(0).replaceAll(\"\\\"\", \"\"), \n            s(1).replaceAll(\"\\\"\", \"\"),\n            s(2).replaceAll(\"\\\"\", \"\"),\n            s(3).replaceAll(\"\\\"\", \"\"),\n            s(4).replaceAll(\"\\\"\", \"\"),\n            s(5).replaceAll(\"\\\"\", \"\").toFloat,\n            s(6).replaceAll(\"\\\"\", \"\"),\n            s(7).replaceAll(\"\\\"\", \"\"), \n            s(8).replaceAll(\"\\\"\", \"\"),\n            s(9).replaceAll(\"\\\"\", \"\").toFloat,        \n            s(10).replaceAll(\"\\\"\", \"\"),\n            s(11).replaceAll(\"\\\"\", \"\").toInt,\n            s(12).replaceAll(\"\\\"\", \"\").toInt,\n            s(13).replaceAll(\"\\\"\", \"\"),\n        )\n).toDF()\nssummary.registerTempTable(\"ssummary\")",
+      "dateUpdated": "Feb 27, 2016 10:31:46 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
