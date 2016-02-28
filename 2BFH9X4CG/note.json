@@ -92,14 +92,14 @@
       "jobName": "paragraph_1456640671105_156612909",
       "id": "20160227-222431_2071567119",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "defined class StrucSummary\n\u003cconsole\u003e:74: error: not enough arguments for method apply: (v_structure_summary_ref_id: String, pdb_id: String, structure_title: String, experimentalTechnique: String, ndb_id: String, resolution: Float, classification: String, release_date: String, deposition_date: String, revision_date: String, molecular_weight: Float, macromolecule_type: String, residue_count: Integer, atom_site_count: Integer, pdb_doi: String)StrucSummary in object StrucSummary.\nUnspecified value parameter pdb_doi.\n           s \u003d\u003e StrucSummary(\n                            ^\n"
+        "msg": "defined class StrucSummary\nssummary: org.apache.spark.sql.DataFrame \u003d [v_structure_summary_ref_id: string, pdb_id: string, structure_title: string, experimentalTechnique: string, ndb_id: string, resolution: float, classification: string, release_date: string, deposition_date: string, revision_date: string, molecular_weight: float, macromolecule_type: string, residue_count: int, atom_site_count: int, pdb_doi: string]\n"
       },
       "dateCreated": "Feb 27, 2016 10:24:31 PM",
-      "dateStarted": "Feb 28, 2016 8:37:15 AM",
-      "dateFinished": "Feb 28, 2016 8:37:15 AM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 8:38:08 AM",
+      "dateFinished": "Feb 28, 2016 8:38:09 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
