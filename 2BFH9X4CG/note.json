@@ -197,12 +197,12 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:47: error: value df is not a member of org.apache.spark.sql.DataFrame\n              ssummary.df.filter(df(\"experimental_technique\") !\u003d null).show()\n                       ^\n"
+        "msg": "\u003cconsole\u003e:47: error: overloaded method value filter with alternatives:\n  (conditionExpr: String)org.apache.spark.sql.DataFrame \u003cand\u003e\n  (condition: org.apache.spark.sql.Column)org.apache.spark.sql.DataFrame\n cannot be applied to (Boolean)\n              ssummary.filter(ssummary(\"experimental_technique\") !\u003d null).show()\n                       ^\n"
       },
       "dateCreated": "Feb 27, 2016 10:28:58 PM",
-      "dateStarted": "Feb 27, 2016 10:40:37 PM",
-      "dateFinished": "Feb 27, 2016 10:40:37 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 27, 2016 10:40:53 PM",
+      "dateFinished": "Feb 27, 2016 10:40:53 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
