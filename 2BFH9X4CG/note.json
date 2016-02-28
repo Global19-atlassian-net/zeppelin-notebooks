@@ -126,14 +126,14 @@
       "jobName": "paragraph_1456640938069_-1914310343",
       "id": "20160227-222858_2118189632",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:59: error: value show is not a member of org.apache.spark.rdd.RDD[String]\n              structText.show()\n                         ^\n"
+        "msg": "res89: String \u003d {\"v_structure_summary_ref_id\":\"100D\",\"pdb_id\":\"100D\",\"structure_title\":\"CRYSTAL STRUCTURE OF THE HIGHLY DISTORTED CHIMERIC DECAMER R(C)D(CGGCGCCG)R(G)-SPERMINE COMPLEX-SPERMINE BINDING TO PHOSPHATE ONLY AND MINOR GROOVE TERTIARY BASE-PAIRING\",\"experimental_technique\":\"X-RAY DIFFRACTION\",\"ndb_id\":\"AHJ060\",\"resolution\":1.9,\"classification\":\"DNA-RNA HYBRID\",\"release_date\":\"1995-03-31\",\"deposition_date\":\"1994-12-05\",\"revision_date\":\"2003-04-01#2009-02-24\",\"structure_molecular_weight\":6360.34,\"macromolecule_type\":\"DNA/RNA Hybrid\",\"residue_count\":20,\"atom_site_count\":0,\"pdb_doi\":\"10.2210/pdb100d/pdb\"}\n"
       },
       "dateCreated": "Feb 27, 2016 10:28:58 PM",
-      "dateStarted": "Feb 27, 2016 11:11:00 PM",
-      "dateFinished": "Feb 27, 2016 11:11:00 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 27, 2016 11:11:12 PM",
+      "dateFinished": "Feb 27, 2016 11:11:13 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
