@@ -116,8 +116,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect atom_site_count, structure_molecular_weight\nfrom ssummary",
-      "dateUpdated": "Feb 28, 2016 2:32:26 PM",
+      "text": "%sql \ndesc ssummary",
+      "dateUpdated": "Feb 28, 2016 2:32:44 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
