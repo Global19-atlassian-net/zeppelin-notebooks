@@ -168,12 +168,12 @@
       "dateCreated": "Feb 27, 2016 10:24:31 PM",
       "dateStarted": "Feb 27, 2016 10:32:00 PM",
       "dateFinished": "Feb 27, 2016 10:32:01 PM",
-      "status": "FINISHED",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%sql\nselect molecular_weight \nfrom ssummary \ngroup by release_date \norder by release_date",
-      "dateUpdated": "Feb 27, 2016 10:34:41 PM",
+      "dateUpdated": "Feb 27, 2016 10:34:49 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
