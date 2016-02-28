@@ -125,8 +125,15 @@
       },
       "jobName": "paragraph_1456640479867_2048378922",
       "id": "20160227-222119_2072361692",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:20: error: not found: type Date\n           deposition_date: Date,\n                            ^\n\u003cconsole\u003e:21: error: not found: type Date\n           revision_date: Date,\n                          ^\n\u003cconsole\u003e:22: error: not found: type FLoat\n           structure_molecular_weight: FLoat,\n                                       ^\n"
+      },
       "dateCreated": "Feb 27, 2016 10:21:19 PM",
-      "status": "READY",
+      "dateStarted": "Feb 27, 2016 10:24:31 PM",
+      "dateFinished": "Feb 27, 2016 10:24:31 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
