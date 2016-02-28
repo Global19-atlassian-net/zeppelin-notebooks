@@ -107,12 +107,12 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:1: error: \u0027;\u0027 expected but \u0027.\u0027 found.\n       from pyspark.sql.functions import mean, min, max\n                   ^\n"
+        "msg": "\u003cconsole\u003e:76: error: value resolution is not a member of org.apache.spark.sql.DataFrame\n         var resolution \u003d ssummary.resolution;\n                                   ^\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 2:10:43 PM",
-      "dateFinished": "Feb 28, 2016 2:10:43 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 2:13:27 PM",
+      "dateFinished": "Feb 28, 2016 2:13:27 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
