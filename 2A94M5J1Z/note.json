@@ -195,7 +195,7 @@
     },
     {
       "text": "%sql \nselect age, count(1) value \nfrom bank \nwhere marital\u003d\"${marital\u003dsingle,single|divorced|married}\" \ngroup by age \norder by age",
-      "dateUpdated": "Feb 27, 2016 4:13:55 PM",
+      "dateUpdated": "Feb 27, 2016 10:27:29 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
@@ -230,11 +230,12 @@
             }
           }
         },
-        "enabled": true
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
       },
       "settings": {
         "params": {
-          "marital": "single"
+          "marital": "divorced"
         },
         "forms": {
           "marital": {
