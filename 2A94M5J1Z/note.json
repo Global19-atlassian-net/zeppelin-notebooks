@@ -194,8 +194,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect age \nfrom bank \nwhere marital\u003d\"${marital\u003dsingle,single|divorced|married}\" \ngroup by age \norder by age",
-      "dateUpdated": "Feb 27, 2016 10:35:22 PM",
+      "text": "%sql \nselect age, count(1) value \nfrom bank \nwhere marital\u003d\"${marital\u003dsingle,single|divorced|married}\" \ngroup by age \norder by age",
+      "dateUpdated": "Feb 27, 2016 10:35:33 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
@@ -209,23 +209,12 @@
               "aggr": "sum"
             }
           ],
-          "values": [
-            {
-              "name": "value",
-              "index": 1.0,
-              "aggr": "sum"
-            }
-          ],
+          "values": [],
           "groups": [],
           "scatter": {
             "xAxis": {
               "name": "age",
               "index": 0.0,
-              "aggr": "sum"
-            },
-            "yAxis": {
-              "name": "value",
-              "index": 1.0,
               "aggr": "sum"
             }
           }
