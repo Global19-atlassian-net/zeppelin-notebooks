@@ -58,13 +58,13 @@
       "jobName": "paragraph_1456610786820_179458407",
       "id": "20160227-140626_2047485672",
       "result": {
-        "code": "SUCCESS",
+        "code": "ERROR",
         "type": "TEXT",
-        "msg": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\nstructText: org.apache.spark.rdd.RDD[String] \u003d ParallelCollectionRDD[213] at parallelize at \u003cconsole\u003e:73\nssummary: org.apache.spark.sql.DataFrame \u003d [_1: string]\n+--------------------+\n|                  _1|\n+--------------------+\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n+--------------------+\nonly showing top 20 rows\n\n"
+        "msg": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\nstructText: org.apache.spark.rdd.RDD[String] \u003d ParallelCollectionRDD[216] at parallelize at \u003cconsole\u003e:77\nssummary: org.apache.spark.sql.DataFrame \u003d [_1: string]\n\u003cconsole\u003e:78: error: not found: value structure_title\n              ssummary.select(structure_title).show();\n                              ^\n"
       },
       "dateCreated": "Feb 27, 2016 2:06:26 PM",
-      "dateStarted": "Feb 28, 2016 8:15:10 AM",
-      "dateFinished": "Feb 28, 2016 8:15:19 AM",
+      "dateStarted": "Feb 28, 2016 8:16:16 AM",
+      "dateFinished": "Feb 28, 2016 8:16:22 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
