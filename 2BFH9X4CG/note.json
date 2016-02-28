@@ -103,8 +103,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "case class StrucSummary(\n    v_structure_summary_ref_id: String, \n    pdb_id: String,\n    structure_title: String, \n    experimental_technique: String, \n    ndb_id: String,\n    resolution: Float,\n    deposition_date: Date,\n    revision_date: Date,\n    structure_molecular_weight: FLoat,\n    macromolecule_type: String,\n    residue_count: Integer,\n    atom_site_count: Integer,\n    pdb_doi: String\n    \n)",
-      "dateUpdated": "Feb 27, 2016 10:24:31 PM",
+      "text": "case class StrucSummary(\n    v_structure_summary_ref_id: String, \n    pdb_id: String,\n    structure_title: String, \n    experimental_technique: String, \n    ndb_id: String,\n    resolution: Float,\n    deposition_date: Datetime,\n    revision_date: Datetime,\n    structure_molecular_weight: Float,\n    macromolecule_type: String,\n    residue_count: Integer,\n    atom_site_count: Integer,\n    pdb_doi: String\n    \n)",
+      "dateUpdated": "Feb 27, 2016 10:24:46 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
