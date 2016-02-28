@@ -117,9 +117,9 @@
     },
     {
       "text": "%sql \nselect resolution\nfrom ss",
-      "dateUpdated": "Feb 28, 2016 2:20:12 PM",
+      "dateUpdated": "Feb 28, 2016 2:20:26 PM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 4.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
