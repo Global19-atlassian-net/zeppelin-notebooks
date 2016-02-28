@@ -161,14 +161,14 @@
       "jobName": "paragraph_1456640671105_156612909",
       "id": "20160227-222431_2071567119",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:16: error: illegal start of simple expression\n               )\n               ^\n"
+        "msg": "ssummary: org.apache.spark.sql.DataFrame \u003d [v_structure_summary_ref_id: string, pdb_id: string, structure_title: string, experimental_technique: string, ndb_id: string, resolution: float, release_date: string, deposition_date: string, revision_date: string, structure_molecular_weight: float, macromolecule_type: string, residue_count: int, atom_site_count: int, pdb_doi: string]\n"
       },
       "dateCreated": "Feb 27, 2016 10:24:31 PM",
-      "dateStarted": "Feb 27, 2016 10:31:46 PM",
-      "dateFinished": "Feb 27, 2016 10:31:46 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 27, 2016 10:32:00 PM",
+      "dateFinished": "Feb 27, 2016 10:32:01 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
