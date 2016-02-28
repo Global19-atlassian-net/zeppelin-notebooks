@@ -69,40 +69,6 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "import org.apache.spark.sql.json.JsonRDD\n\n\n//{\"v_structure_summary_ref_id\":\"100D\",\"pdb_id\":\"100D\",\"structure_title\":\"CRYSTAL STRUCTURE OF THE ...\",\"experimental_technique\":\"X-RAY DIFFRACTION\",\"ndb_id\":\"AHJ060\",\"resolution\":1.9,\"classification\":\"DNA-RNA HYBRID\",\"release_date\":\"1995-03-31\",\"deposition_date\":\"1994-12-05\",\"revision_date\":\"2003-04-01#2009-02-24\",\"structure_molecular_weight\":6360.34,\"macromolecule_type\":\"DNA/RNA Hybrid\",\"residue_count\":20,\"atom_site_count\":0,\"pdb_doi\":\"10.2210/pdb100d/pdb\"}\n\ncase class StrucSummary(\n    v_structure_summary_ref_id: String , \n    pdb_id: String,\n    structure_title: String, \n    experimentalTechnique: String, \n    ndb_id: String,\n    resolution: Float,\n    classification: String,\n    release_date: String,\n    deposition_date: String,\n    revision_date: String,\n    molecular_weight: Float,\n    macromolecule_type: String,\n    residue_count: Integer,\n    atom_site_count: Integer,\n    doi: String\n    \n)\n\nJsonRDD.jsonStringToRow(structText, StructSummary);\n\n// val ssummary \u003d structText.map(s \u003d\u003e s.split(\",\")).filter(s \u003d\u003e s.length \u003d\u003d 15).map(\n//     s \u003d\u003e StrucSummary(\n//             s(0).replaceAll(\"\\\"\", \"\"), \n//             s(1).replaceAll(\"\\\"\", \"\"),\n//             s(2).replaceAll(\"\\\"\", \"\"),\n//             s(3).replaceAll(\"\\\"\", \"\"),\n//             s(4).replaceAll(\"\\\"\", \"\"),\n//             s(5).replaceAll(\"\\\"\", \"\").toFloat,\n//             s(6).replaceAll(\"\\\"\", \"\"),\n//             s(7).replaceAll(\"\\\"\", \"\"),\n//             s(8).replaceAll(\"\\\"\", \"\"), \n//             s(9).replaceAll(\"\\\"\", \"\"),\n//             s(10).replaceAll(\"\\\"\", \"\").toFloat,        \n//             s(11).replaceAll(\"\\\"\", \"\"),\n//             s(12).replaceAll(\"\\\"\", \"\").toInt,\n//             s(13).replaceAll(\"\\\"\", \"\").toInt,\n//             s(14).replaceAll(\"\\\"\", \"\")\n//         )\n// ).toDF()\n\n\n\n",
-      "dateUpdated": "Feb 28, 2016 8:47:34 AM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/scala"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1456640671105_156612909",
-      "id": "20160227-222431_2071567119",
-      "result": {
-        "code": "ERROR",
-        "type": "TEXT",
-        "msg": "\u003cconsole\u003e:66: error: object json is not a member of package org.apache.spark.sql\n         import org.apache.spark.sql.json.JsonRDD\n                                     ^\n"
-      },
-      "dateCreated": "Feb 27, 2016 10:24:31 PM",
-      "dateStarted": "Feb 28, 2016 8:47:07 AM",
-      "dateFinished": "Feb 28, 2016 8:47:07 AM",
-      "status": "ERROR",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "text": "val sqlContext \u003d new org.apache.spark.sql.SQLContext(sc)\n\nval ssummary \u003d sqlContext.read.json(\"/home/ubuntu/GIT/dataframes/json/v_structure_summary.2015_08_10.json\");\n\nssummary.first();",
       "dateUpdated": "Feb 28, 2016 1:31:32 PM",
       "config": {
