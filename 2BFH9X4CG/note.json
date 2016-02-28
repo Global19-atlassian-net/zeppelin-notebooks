@@ -172,8 +172,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\nselect age, count(1) value\nfrom bank \nwhere age \u003c 29\ngroup by age \norder by age",
-      "dateUpdated": "Feb 27, 2016 10:32:27 PM",
+      "text": "%sql\nselect resolution, count(1) value\nfrom ssumary \ngroup by release_date \norder by release_date",
+      "dateUpdated": "Feb 27, 2016 10:33:08 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -195,6 +195,18 @@
       "jobName": "paragraph_1456640938069_-1914310343",
       "id": "20160227-222858_2118189632",
       "dateCreated": "Feb 27, 2016 10:28:58 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1456641188838_1814659028",
+      "id": "20160227-223308_1525938884",
+      "dateCreated": "Feb 27, 2016 10:33:08 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
