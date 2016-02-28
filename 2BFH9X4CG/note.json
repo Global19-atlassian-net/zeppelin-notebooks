@@ -36,7 +36,7 @@
     },
     {
       "text": "val sqlContext \u003d new org.apache.spark.sql.SQLContext(sc)\n\nval ssummary \u003d sqlContext.read.json(\"/home/ubuntu/GIT/dataframes/json/v_structure_summary.2015_08_10.json\");\n\nssummary.first();\n\nssummary.registerTempTable(\"ssummary\")",
-      "dateUpdated": "Feb 28, 2016 1:33:46 PM",
+      "dateUpdated": "Feb 28, 2016 1:33:52 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
