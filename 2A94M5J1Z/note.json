@@ -261,11 +261,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TABLE",
-        "msg": "age\tvalue\n19\t4\n20\t3\n21\t7\n22\t9\n23\t17\n24\t13\n25\t33\n26\t56\n27\t64\n28\t78\n29\t56\n30\t92\n31\t86\n32\t105\n33\t61\n34\t75\n35\t46\n36\t50\n37\t43\n38\t44\n39\t30\n40\t25\n41\t19\n42\t23\n43\t21\n44\t20\n45\t15\n46\t14\n47\t12\n48\t12\n49\t11\n50\t8\n51\t6\n52\t9\n53\t4\n55\t3\n56\t3\n57\t2\n58\t7\n59\t2\n60\t5\n66\t2\n69\t1\n"
+        "msg": "age\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n55\n56\n57\n58\n59\n60\n66\n69\n"
       },
       "dateCreated": "Feb 13, 2015 11:04:22 PM",
-      "dateStarted": "Feb 27, 2016 10:28:34 PM",
-      "dateFinished": "Feb 27, 2016 10:28:36 PM",
+      "dateStarted": "Feb 27, 2016 10:35:22 PM",
+      "dateFinished": "Feb 27, 2016 10:35:23 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
