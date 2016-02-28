@@ -35,8 +35,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\n\n// Zeppelin creates and injects sc (SparkContext) and sqlContext (HiveContext or SqlContext)\n// So you don\u0027t need create them manually\n\n// load bank data\nval structText \u003d sc.parallelize(\n    IOUtils.toString(\n        new URL(\"https://github.com/rcsb/dataframes/blob/master/json/v_structure_summary.2015_08_10.json.gz?raw\u003dtrue\"),\n        Charset.forName(\"utf8\")).split(\"\\n\"))",
-      "dateUpdated": "Feb 27, 2016 10:34:49 PM",
+      "text": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\n\n// Zeppelin creates and injects sc (SparkContext) and sqlContext (HiveContext or SqlContext)\n// So you don\u0027t need create them manually\n\n// load bank data\nval structText \u003d sc.parallelize(\n    IOUtils.toString(\n        new URL(\"https://github.com/rcsb/dataframes/blob/master/json/v_structure_summary.2015_08_10.json.gz?raw\u003dtrue\"),\n        Charset.forName(\"utf8\")).split(\"\\n\"))\n        \n        \ncase class StrucSummary(\n    v_structure_summary_ref_id: String , \n    pdb_id: String,\n    structure_title: String, \n    experimental_technique: String, \n    ndb_id: String,\n    resolution: Float,\n    release_date: String,\n    deposition_date: String,\n    revision_date: String,\n    molecular_weight: Float,\n    macromolecule_type: String,\n    residue_count: Integer,\n    atom_site_count: Integer,\n    pdb_doi: String\n    \n)\n\n\n        ",
+      "dateUpdated": "Feb 27, 2016 10:57:19 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
