@@ -113,11 +113,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "resolution: org.apache.spark.sql.DataFrame \u003d [resolution: double]\n"
+        "msg": "resolution: org.apache.spark.sql.DataFrame \u003d [resolution: double]\ncount: org.apache.spark.sql.DataFrame \u003d [structure_molecular_weight: double]\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 1:42:49 PM",
-      "dateFinished": "Feb 28, 2016 1:42:49 PM",
+      "dateStarted": "Feb 28, 2016 1:43:05 PM",
+      "dateFinished": "Feb 28, 2016 1:43:06 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
