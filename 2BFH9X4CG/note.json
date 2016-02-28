@@ -116,8 +116,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "var df \u003d ssummary.filter(ssummary(\"resolution\").isNotNull);\ndf.registerTmpTable(\"df\");\n\n\n",
-      "dateUpdated": "Feb 28, 2016 2:35:57 PM",
+      "text": "var df \u003d ssummary.filter(ssummary(\"resolution\").isNotNull);\ndf.registerTempTable(\"df\");\n\n\n",
+      "dateUpdated": "Feb 28, 2016 2:36:13 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
