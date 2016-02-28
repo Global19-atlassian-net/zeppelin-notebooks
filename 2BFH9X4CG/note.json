@@ -116,8 +116,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect \nfrom ssummary",
-      "dateUpdated": "Feb 28, 2016 2:29:15 PM",
+      "text": "%sql \nselect resolution, structure_molecular_weight\nfrom ssummary",
+      "dateUpdated": "Feb 28, 2016 2:29:35 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
