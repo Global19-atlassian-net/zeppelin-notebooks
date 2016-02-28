@@ -65,7 +65,7 @@
       "dateCreated": "Feb 27, 2016 2:06:26 PM",
       "dateStarted": "Feb 27, 2016 10:34:49 PM",
       "dateFinished": "Feb 27, 2016 4:21:40 PM",
-      "status": "PENDING",
+      "status": "RUNNING",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -98,14 +98,14 @@
         "msg": "\u003cp\u003ethe columns are :\u003c/p\u003e\n\u003cp\u003ev_structure_summary_ref_id\u0026rdquo;:\u0026ldquo;100D\u0026rdquo;,\n\u003cbr  /\u003e\u0026ldquo;pdb_id\u0026rdquo;:\u0026ldquo;100D\u0026rdquo;,\n\u003cbr  /\u003e\u0026ldquo;structure_title\u0026rdquo;:\u0026ldquo;CRYSTAL STRUCTURE OF THE HIGHLY DISTORTED CHIMERIC DECAMER R\u0026copy;D(CGGCGCCG)R(G)-SPERMINE COMPLEX-SPERMINE BINDING TO PHOSPHATE ONLY AND MINOR GROOVE TERTIARY BASE-PAIRING\u0026rdquo;,\n\u003cbr  /\u003e\u0026ldquo;experimental_technique\u0026rdquo;:\u0026ldquo;X-RAY DIFFRACTION\u0026rdquo;,\n\u003cbr  /\u003e\u0026ldquo;ndb_id\u0026rdquo;:\u0026ldquo;AHJ060\u0026rdquo;,\n\u003cbr  /\u003e\u0026ldquo;resolution\u0026rdquo;:1.9,\n\u003cbr  /\u003e\u0026ldquo;classification\u0026rdquo;:\u0026ldquo;DNA-RNA HYBRID\u0026rdquo;,\n\u003cbr  /\u003e\u0026ldquo;release_date\u0026rdquo;:\u0026ldquo;1995-03-31\u0026rdquo;,\n\u003cbr  /\u003e\u0026ldquo;deposition_date\u0026rdquo;:\u0026ldquo;1994-12-05\u0026rdquo;\n\u003cbr  /\u003e,\u0026ldquo;revision_date\u0026rdquo;:\u0026ldquo;2003-04-01#2009-02-24\u0026rdquo;,\n\u003cbr  /\u003e\u0026ldquo;structure_molecular_weight\u0026rdquo;:6360.34,\n\u003cbr  /\u003e\u0026ldquo;macromolecule_type\u0026rdquo;:\u0026ldquo;DNA/RNA Hybrid\u0026rdquo;,\n\u003cbr  /\u003e\u0026ldquo;residue_count\u0026rdquo;:20,\n\u003cbr  /\u003e\u0026ldquo;atom_site_count\u0026rdquo;:0,\n\u003cbr  /\u003e\u0026ldquo;pdb_doi\u0026rdquo;:\u0026ldquo;10.2210/pdb100d/pdb\u0026rdquo;\u003c/p\u003e\n"
       },
       "dateCreated": "Feb 27, 2016 2:07:12 PM",
-      "dateStarted": "Feb 27, 2016 10:21:20 PM",
-      "dateFinished": "Feb 27, 2016 10:21:20 PM",
+      "dateStarted": "Feb 27, 2016 10:34:49 PM",
+      "dateFinished": "Feb 27, 2016 10:34:49 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "case class StrucSummary(\n    v_structure_summary_ref_id: String, \n    pdb_id: String,\n    structure_title: String, \n    experimental_technique: String, \n    ndb_id: String,\n    resolution: Float,\n    release_date: String,\n    deposition_date: String,\n    revision_date: String,\n    molecular_weight: Float,\n    macromolecule_type: String,\n    residue_count: Integer,\n    atom_site_count: Integer,\n    pdb_doi: String\n    \n)",
-      "dateUpdated": "Feb 27, 2016 10:34:46 PM",
+      "dateUpdated": "Feb 27, 2016 10:34:49 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
