@@ -126,14 +126,14 @@
       "jobName": "paragraph_1456640479867_2048378922",
       "id": "20160227-222119_2072361692",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:20: error: not found: type Datetime\n           deposition_date: Datetime,\n                            ^\n\u003cconsole\u003e:21: error: not found: type Datetime\n           revision_date: Datetime,\n                          ^\n"
+        "msg": "defined class StrucSummary\n"
       },
       "dateCreated": "Feb 27, 2016 10:21:19 PM",
-      "dateStarted": "Feb 27, 2016 10:24:46 PM",
-      "dateFinished": "Feb 27, 2016 10:24:46 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 27, 2016 10:24:57 PM",
+      "dateFinished": "Feb 27, 2016 10:24:58 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
