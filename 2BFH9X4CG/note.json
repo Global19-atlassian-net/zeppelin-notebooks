@@ -172,8 +172,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "ssummary.show()",
-      "dateUpdated": "Feb 27, 2016 10:43:15 PM",
+      "text": "%sql\n\nselect pdb_id\nfrom ssummary\nwhere pdb_id \u003d \"4hhb\"",
+      "dateUpdated": "Feb 27, 2016 10:53:54 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
