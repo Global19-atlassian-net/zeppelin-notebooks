@@ -70,8 +70,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\n\nselect *\nfrom ssummary \nLIMIT 1\n\n",
-      "dateUpdated": "Feb 28, 2016 2:06:00 PM",
+      "text": "ssummary.maxBy(s \u003d\u003e resolution)\n\n",
+      "dateUpdated": "Feb 28, 2016 2:08:00 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -96,7 +96,7 @@
           }
         },
         "enabled": true,
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
