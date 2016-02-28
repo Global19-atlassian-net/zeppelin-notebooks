@@ -117,12 +117,12 @@
     },
     {
       "text": "var df \u003d ssummary.filter(ssummary(\"resolution\").isNotNull);\ndf.registerTempTable(\"df\");\n\n\n",
-      "dateUpdated": "Feb 28, 2016 2:36:13 PM",
+      "dateUpdated": "Feb 28, 2016 2:36:22 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
           "mode": "table",
-          "height": 300.0,
+          "height": 294.0,
           "optionOpen": false,
           "keys": [],
           "values": [],
