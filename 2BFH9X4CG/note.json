@@ -70,8 +70,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect pdb\nfrom ssummary \n",
-      "dateUpdated": "Feb 28, 2016 1:36:56 PM",
+      "text": "%sql \nselect experimental_technique\nfrom ssummary \n",
+      "dateUpdated": "Feb 28, 2016 1:37:18 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
