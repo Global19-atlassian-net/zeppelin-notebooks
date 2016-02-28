@@ -266,12 +266,12 @@
       "dateCreated": "Feb 13, 2015 11:04:22 PM",
       "dateStarted": "Feb 27, 2016 10:27:39 PM",
       "dateFinished": "Feb 27, 2016 10:27:39 PM",
-      "status": "ERROR",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n## Congratulations, it\u0027s done.\n##### You can create your own notebook in \u0027Notebook\u0027 menu. Good luck!",
-      "dateUpdated": "Feb 27, 2016 4:13:55 PM",
+      "dateUpdated": "Feb 27, 2016 10:27:44 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
