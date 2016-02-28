@@ -160,8 +160,15 @@
       },
       "jobName": "paragraph_1456640671105_156612909",
       "id": "20160227-222431_2071567119",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:41: error: not enough arguments for method apply: (v_structure_summary_ref_id: String, pdb_id: String, structure_title: String, experimental_technique: String, ndb_id: String, resolution: Float, release_date: String, deposition_date: String, revision_date: String, structure_molecular_weight: Float, macromolecule_type: String, residue_count: Integer, atom_site_count: Integer, pdb_doi: String)StrucSummary in object StrucSummary.\nUnspecified value parameters resolution, release_date, deposition_date, ...\n           s \u003d\u003e StrucSummary(s(0).toInt, \n                            ^\n"
+      },
       "dateCreated": "Feb 27, 2016 10:24:31 PM",
-      "status": "READY",
+      "dateStarted": "Feb 27, 2016 10:28:58 PM",
+      "dateFinished": "Feb 27, 2016 10:28:58 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
