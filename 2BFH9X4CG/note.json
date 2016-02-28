@@ -35,8 +35,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\n\n// Zeppelin creates and injects sc (SparkContext) and sqlContext (HiveContext or SqlContext)\n// So you don\u0027t need create them manually\n\n// load bank data\nval structText \u003d sc.parallelize(\n    IOUtils.toString(\n        new URL(\"https://github.com/rcsb/dataframes/blob/master/json/v_structure_summary.2015_08_10.json?raw\u003dtrue\"),\n        Charset.forName(\"utf8\")).split(\"\\n\"))\n        \n ",
-      "dateUpdated": "Feb 28, 2016 8:35:07 AM",
+      "text": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\n\n// Zeppelin creates and injects sc (SparkContext) and sqlContext (HiveContext or SqlContext)\n// So you don\u0027t need create them manually\n\n// load bank data\nval structText \u003d sc.parallelize(\n    IOUtils.toString(\n        new URL(\"https://github.com/rcsb/dataframes/blob/master/json/v_structure_summary.2015_08_10.json?raw\u003dtrue\"),\n        Charset.forName(\"utf8\")).split(\"\\n\"))\n        \n",
+      "dateUpdated": "Feb 28, 2016 8:46:08 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
