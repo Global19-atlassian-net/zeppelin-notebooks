@@ -103,8 +103,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "ssummary.first();",
-      "dateUpdated": "Feb 27, 2016 11:11:30 PM",
+      "text": "%sql \nselect experimental_technique, count(1) value\nfrom ssummary \ngroup by resolution \norder by resolution",
+      "dateUpdated": "Feb 27, 2016 11:15:44 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
