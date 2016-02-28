@@ -127,14 +127,14 @@
       "jobName": "paragraph_1456640479867_2048378922",
       "id": "20160227-222119_2072361692",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:2: error: \u0027)\u0027 expected but \u0027(\u0027 found.\n           v_structure_summary_ref_id: String (nullable \u003d false), \n                                              ^\n\u003cconsole\u003e:2: error: \u0027:\u0027 expected but \u0027\u003d\u0027 found.\n           v_structure_summary_ref_id: String (nullable \u003d false), \n                                                        ^\n"
+        "msg": "defined class StrucSummary\n"
       },
       "dateCreated": "Feb 27, 2016 10:21:19 PM",
-      "dateStarted": "Feb 27, 2016 10:39:35 PM",
-      "dateFinished": "Feb 27, 2016 10:39:35 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 27, 2016 10:39:50 PM",
+      "dateFinished": "Feb 27, 2016 10:39:50 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
