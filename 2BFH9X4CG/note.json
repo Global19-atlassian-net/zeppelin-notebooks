@@ -103,8 +103,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "structText.show()",
-      "dateUpdated": "Feb 27, 2016 11:10:59 PM",
+      "text": "structText.first()",
+      "dateUpdated": "Feb 27, 2016 11:11:12 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
