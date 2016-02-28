@@ -116,33 +116,21 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \ndesc ssummary",
-      "dateUpdated": "Feb 28, 2016 2:32:44 PM",
+      "text": "var df \u003d ssummary.filter(\"resolution !\u003d null\");\n",
+      "dateUpdated": "Feb 28, 2016 2:34:07 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
           "optionOpen": false,
-          "keys": [
-            {
-              "name": "_1",
-              "index": 0.0,
-              "aggr": "sum"
-            }
-          ],
+          "keys": [],
           "values": [],
           "groups": [],
-          "scatter": {
-            "xAxis": {
-              "name": "_1",
-              "index": 0.0,
-              "aggr": "sum"
-            }
-          }
+          "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
