@@ -70,8 +70,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect resolution,\"structure_molecular_weight\" from ssummary\n",
-      "dateUpdated": "Feb 28, 2016 1:41:49 PM",
+      "text": "\n",
+      "dateUpdated": "Feb 28, 2016 1:42:12 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -101,7 +101,8 @@
             }
           }
         },
-        "enabled": true
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
