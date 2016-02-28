@@ -70,8 +70,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "ssummary.select([mean(\u0027resolution\u0027), min(\u0027resolution\u0027), max(\u0027resolution\u0027)]).show()\n",
-      "dateUpdated": "Feb 28, 2016 2:10:12 PM",
+      "text": "from pyspark.sql.functions import mean, min, max\n\nssummary.select([mean(\u0027resolution\u0027), min(\u0027resolution\u0027), max(\u0027resolution\u0027)]).show()\n",
+      "dateUpdated": "Feb 28, 2016 2:10:43 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
