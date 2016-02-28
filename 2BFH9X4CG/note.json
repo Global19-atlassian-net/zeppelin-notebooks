@@ -71,9 +71,9 @@
     },
     {
       "text": "\nssummary.agg(max(\"resolution\")).show();\nssummary.agg(min(\"resolution\")).show();",
-      "dateUpdated": "Feb 28, 2016 2:20:12 PM",
+      "dateUpdated": "Feb 28, 2016 2:20:21 PM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 4.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -112,7 +112,7 @@
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
       "dateStarted": "Feb 28, 2016 2:20:12 PM",
       "dateFinished": "Feb 28, 2016 2:19:03 PM",
-      "status": "PENDING",
+      "status": "RUNNING",
       "progressUpdateIntervalMs": 500
     },
     {
