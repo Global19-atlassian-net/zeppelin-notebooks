@@ -107,12 +107,12 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:83: error: value toRdd is not a member of org.apache.spark.sql.DataFrame\n              ssummary.toRdd().maxBy(s \u003d\u003e resolution)\n                       ^\n"
+        "msg": "\u003cconsole\u003e:83: error: value maxBy is not a member of org.apache.spark.rdd.RDD[org.apache.spark.sql.Row]\n              ssummary.rdd.maxBy(s \u003d\u003e resolution)\n                           ^\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 2:08:25 PM",
-      "dateFinished": "Feb 28, 2016 2:08:25 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 2:08:52 PM",
+      "dateFinished": "Feb 28, 2016 2:08:52 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
