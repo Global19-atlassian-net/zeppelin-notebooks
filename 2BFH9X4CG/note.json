@@ -70,8 +70,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect \"resolution\",\"structure_molecular_weight\" from ssummary\n",
-      "dateUpdated": "Feb 28, 2016 1:41:37 PM",
+      "text": "%sql \nselect resolution,\"structure_molecular_weight\" from ssummary\n",
+      "dateUpdated": "Feb 28, 2016 1:41:49 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -85,7 +85,13 @@
               "aggr": "sum"
             }
           ],
-          "values": [],
+          "values": [
+            {
+              "name": "_c1",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
           "groups": [],
           "scatter": {
             "xAxis": {
