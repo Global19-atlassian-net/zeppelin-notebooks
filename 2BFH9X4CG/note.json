@@ -92,14 +92,14 @@
       "jobName": "paragraph_1456640671105_156612909",
       "id": "20160227-222431_2071567119",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "defined class StrucSummary\n\u003cconsole\u003e:80: error: Float does not take parameters\n                   s(5).replaceAll(\"\\\"\", \"\").toFloat(),\n                                                    ^\n"
+        "msg": "defined class StrucSummary\nssummary: org.apache.spark.sql.DataFrame \u003d [v_structure_summary_ref_id: string, pdb_id: string, structure_title: string, experimentalTechnique: string, ndb_id: string, resolution: float, classification: string, release_date: string, deposition_date: string, revision_date: string, molecular_weight: float, macromolecule_type: string, residue_count: int, atom_site_count: int, doi: string]\n"
       },
       "dateCreated": "Feb 27, 2016 10:24:31 PM",
-      "dateStarted": "Feb 28, 2016 8:42:55 AM",
-      "dateFinished": "Feb 28, 2016 8:42:56 AM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 8:43:05 AM",
+      "dateFinished": "Feb 28, 2016 8:43:06 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
