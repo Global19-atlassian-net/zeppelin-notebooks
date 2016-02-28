@@ -60,12 +60,12 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\n\u003cconsole\u003e:55: error: value load is not a member of org.apache.spark.SparkContext\n       var ssummary \u003d sc.load(\"https://github.com/rcsb/dataframes/blob/master/json/v_structure_summary.2015_08_10.json?raw\u003dtrue\");\n                         ^\n"
+        "msg": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\n\u003cconsole\u003e:57: error: not found: value context\n       var ssummary \u003d context.load(\"https://github.com/rcsb/dataframes/blob/master/json/v_structure_summary.2015_08_10.json?raw\u003dtrue\");\n                      ^\n"
       },
       "dateCreated": "Feb 27, 2016 2:06:26 PM",
-      "dateStarted": "Feb 28, 2016 8:27:36 AM",
-      "dateFinished": "Feb 28, 2016 8:27:37 AM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 8:27:56 AM",
+      "dateFinished": "Feb 28, 2016 8:27:57 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
