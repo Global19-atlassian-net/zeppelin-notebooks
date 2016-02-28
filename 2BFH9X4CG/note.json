@@ -161,13 +161,13 @@
       "jobName": "paragraph_1456640671105_156612909",
       "id": "20160227-222431_2071567119",
       "result": {
-        "code": "SUCCESS",
+        "code": "ERROR",
         "type": "TEXT",
-        "msg": "ssummary: org.apache.spark.sql.DataFrame \u003d [v_structure_summary_ref_id: string, pdb_id: string, structure_title: string, experimental_technique: string, ndb_id: string, resolution: float, release_date: string, deposition_date: string, revision_date: string, molecular_weight: float, macromolecule_type: string, residue_count: int, atom_site_count: int, pdb_doi: string]\n"
+        "msg": "ssummary: org.apache.spark.sql.DataFrame \u003d [v_structure_summary_ref_id: string, pdb_id: string, structure_title: string, experimental_technique: string, ndb_id: string, resolution: float, release_date: string, deposition_date: string, revision_date: string, molecular_weight: float, macromolecule_type: string, residue_count: int, atom_site_count: int, pdb_doi: string]\n\u003cconsole\u003e:1: error: illegal start of definition\n       #ssummary.registerTempTable(\"ssummary\")\n       ^\n"
       },
       "dateCreated": "Feb 27, 2016 10:24:31 PM",
-      "dateStarted": "Feb 27, 2016 10:39:54 PM",
-      "dateFinished": "Feb 27, 2016 10:39:55 PM",
+      "dateStarted": "Feb 27, 2016 10:41:29 PM",
+      "dateFinished": "Feb 27, 2016 10:41:29 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
