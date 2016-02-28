@@ -173,7 +173,7 @@
     },
     {
       "text": "ssummary.filter(ssummary(\"resolution\") \u003e 0).show()",
-      "dateUpdated": "Feb 27, 2016 10:41:55 PM",
+      "dateUpdated": "Feb 27, 2016 10:42:42 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
