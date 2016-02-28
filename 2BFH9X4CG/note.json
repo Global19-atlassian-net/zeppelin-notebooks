@@ -105,14 +105,14 @@
       "jobName": "paragraph_1456695201203_1192694980",
       "id": "20160228-133321_2042932855",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:78: error: value max is not a member of org.apache.spark.sql.DataFrame\n              ssummary.max(\"resolution\")\n                       ^\n"
+        "msg": "res241: org.apache.spark.sql.DataFrame \u003d [max(resolution): double]\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 2:18:17 PM",
-      "dateFinished": "Feb 28, 2016 2:18:18 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 2:18:33 PM",
+      "dateFinished": "Feb 28, 2016 2:18:34 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
