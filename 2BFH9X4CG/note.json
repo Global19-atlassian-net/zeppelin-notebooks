@@ -70,8 +70,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "ssummary.maxBy(s \u003d\u003e resolution)\n\n",
-      "dateUpdated": "Feb 28, 2016 2:08:00 PM",
+      "text": "ssummary.toRDD().maxBy(s \u003d\u003e resolution)\n\n",
+      "dateUpdated": "Feb 28, 2016 2:08:17 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
