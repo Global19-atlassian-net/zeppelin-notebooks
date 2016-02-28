@@ -117,7 +117,7 @@
     },
     {
       "text": "%sql \nselect \nfrom ssummary",
-      "dateUpdated": "Feb 28, 2016 2:23:04 PM",
+      "dateUpdated": "Feb 28, 2016 2:29:15 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
