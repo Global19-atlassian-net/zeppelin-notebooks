@@ -107,12 +107,12 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "resolution: org.apache.spark.sql.Column \u003d resolution\n\u003cconsole\u003e:80: error: value min is not a member of org.apache.spark.sql.Column\n              resolution.min().show()\n                         ^\n"
+        "msg": "\u003cconsole\u003e:78: error: type mismatch;\n found   : Int(5)\n required: String\n              ssummary.filter(\"resolution\" \u003c 5)\n                                             ^\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 2:14:58 PM",
-      "dateFinished": "Feb 28, 2016 2:14:58 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 2:16:56 PM",
+      "dateFinished": "Feb 28, 2016 2:16:56 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
