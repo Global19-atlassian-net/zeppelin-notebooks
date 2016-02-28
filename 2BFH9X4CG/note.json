@@ -103,8 +103,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect experimentalTechnique\nfrom ssummary \n",
-      "dateUpdated": "Feb 27, 2016 11:24:22 PM",
+      "text": "%sql \nselect molecular_weight, \nfrom ssummary \n",
+      "dateUpdated": "Feb 27, 2016 11:24:47 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
