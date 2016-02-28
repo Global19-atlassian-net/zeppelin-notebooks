@@ -160,14 +160,14 @@
       "jobName": "paragraph_1456641188838_1814659028",
       "id": "20160227-223308_1525938884",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:68: error: value read is not a member of org.apache.spark.SparkContext\n         val ssummary \u003d sc.read.json(\"/home/ubuntu/GIT/dataframes/json/v_structure_summary.2015_08_10.json\");\n                           ^\n"
+        "msg": "sqlContext: org.apache.spark.sql.SQLContext \u003d org.apache.spark.sql.SQLContext@492167e4\nssummary: org.apache.spark.sql.DataFrame \u003d [atom_site_count: bigint, classification: string, deposition_date: string, experimental_technique: string, macromolecule_type: string, ndb_id: string, pdb_doi: string, pdb_id: string, release_date: string, residue_count: bigint, resolution: double, revision_date: string, structure_molecular_weight: double, structure_title: string, v_structure_summary_ref_id: string]\nres148: org.apache.spark.sql.Row \u003d [0,DNA-RNA HYBRID,1994-12-05,X-RAY DIFFRACTION,DNA/RNA Hybrid,AHJ060,10.2210/pdb100d/pdb,100D,1995-03-31,20,1.9,2003-04-01#2009-02-24,6360.34,CRYSTAL STRUCTURE OF THE HIGHLY DISTORTED CHIMERIC DECAMER R(C)D(CGGCGCCG)R(G)-SPERMINE COMPLEX-SPERMINE BINDING TO PHOSPHATE ONLY AND MINOR GROOVE TERTIARY BASE-PAIRING,100D]\n"
       },
       "dateCreated": "Feb 27, 2016 10:33:08 PM",
-      "dateStarted": "Feb 28, 2016 1:30:47 PM",
-      "dateFinished": "Feb 28, 2016 1:30:48 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 1:31:32 PM",
+      "dateFinished": "Feb 28, 2016 1:31:41 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
