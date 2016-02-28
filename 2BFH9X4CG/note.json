@@ -105,14 +105,14 @@
       "jobName": "paragraph_1456695201203_1192694980",
       "id": "20160228-133321_2042932855",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:78: error: value lt is not a member of String\n              ssummary.filter(\"resolution\".lt(5))\n                                           ^\n"
+        "msg": "res236: org.apache.spark.sql.DataFrame \u003d [atom_site_count: bigint, classification: string, deposition_date: string, experimental_technique: string, macromolecule_type: string, ndb_id: string, pdb_doi: string, pdb_id: string, release_date: string, residue_count: bigint, resolution: double, revision_date: string, structure_molecular_weight: double, structure_title: string, v_structure_summary_ref_id: string]\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 2:17:12 PM",
-      "dateFinished": "Feb 28, 2016 2:17:12 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 2:17:38 PM",
+      "dateFinished": "Feb 28, 2016 2:17:39 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
