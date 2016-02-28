@@ -136,8 +136,14 @@
       },
       "jobName": "paragraph_1456695292991_-702053791",
       "id": "20160228-133452_1505231123",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT"
+      },
       "dateCreated": "Feb 28, 2016 1:34:52 PM",
-      "status": "PENDING",
+      "dateStarted": "Feb 28, 2016 2:01:13 PM",
+      "dateFinished": "Feb 28, 2016 2:01:13 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     }
   ],
