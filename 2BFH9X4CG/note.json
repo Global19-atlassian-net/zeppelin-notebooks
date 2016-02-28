@@ -139,7 +139,7 @@
     },
     {
       "text": "val ssummary \u003d structText.map(s \u003d\u003e s.split(\";\")).map(\n    s \u003d\u003e StrucSummary(\n            s(0).replaceAll(\"\\\"\", \"\"), \n            s(1).replaceAll(\"\\\"\", \"\"),\n            s(2).replaceAll(\"\\\"\", \"\"),\n            s(3).replaceAll(\"\\\"\", \"\"),\n            s(4).replaceAll(\"\\\"\", \"\"),\n            s(5).replaceAll(\"\\\"\", \"\").toFloat,\n            s(6).replaceAll(\"\\\"\", \"\"),\n            s(7).replaceAll(\"\\\"\", \"\"), \n            s(8).replaceAll(\"\\\"\", \"\"),\n            s(9).replaceAll(\"\\\"\", \"\").toFloat,        \n            s(10).replaceAll(\"\\\"\", \"\"),\n            s(11).replaceAll(\"\\\"\", \"\").toInt,\n            s(12).replaceAll(\"\\\"\", \"\").toInt,\n            s(13).replaceAll(\"\\\"\", \"\")\n        )\n).toDF()\nssummary.registerTempTable(\"ssummary\")",
-      "dateUpdated": "Feb 27, 2016 10:42:35 PM",
+      "dateUpdated": "Feb 27, 2016 10:53:39 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
