@@ -124,14 +124,14 @@
         "msg": "age\tvalue\n19\t4\n20\t3\n21\t7\n22\t9\n23\t20\n24\t24\n25\t44\n26\t77\n27\t94\n28\t103\n"
       },
       "dateCreated": "Feb 10, 2015 1:53:02 AM",
-      "dateStarted": "Feb 27, 2016 4:13:55 PM",
+      "dateStarted": "Feb 27, 2016 10:27:44 PM",
       "dateFinished": "Feb 27, 2016 4:14:04 PM",
-      "status": "FINISHED",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%sql \nselect age, count(1) value \nfrom bank \nwhere age \u003c ${maxAge\u003d30} \ngroup by age \norder by age",
-      "dateUpdated": "Feb 27, 2016 4:13:55 PM",
+      "dateUpdated": "Feb 27, 2016 10:27:44 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
