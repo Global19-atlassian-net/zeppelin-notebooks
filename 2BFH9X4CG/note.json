@@ -107,12 +107,12 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:76: error: value resolution is not a member of org.apache.spark.sql.DataFrame\n         var resolution \u003d ssummary.resolution\n                                   ^\n"
+        "msg": "\u003cconsole\u003e:82: error: recursive method resolution needs type\n         var resolution \u003d ssummary(resolution)\n                                   ^\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 2:14:00 PM",
-      "dateFinished": "Feb 28, 2016 2:14:00 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 2:14:28 PM",
+      "dateFinished": "Feb 28, 2016 2:14:28 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
