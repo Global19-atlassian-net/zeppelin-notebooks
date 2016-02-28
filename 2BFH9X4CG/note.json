@@ -70,8 +70,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "\n",
-      "dateUpdated": "Feb 28, 2016 1:42:12 PM",
+      "text": "val resolution \u003d ssummary.select(\"resolution\")\n",
+      "dateUpdated": "Feb 28, 2016 1:42:49 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
