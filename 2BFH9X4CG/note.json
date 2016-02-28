@@ -139,14 +139,14 @@
       "jobName": "paragraph_1456695292991_-702053791",
       "id": "20160228-133452_1505231123",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "df: org.apache.spark.sql.DataFrame \u003d [atom_site_count: bigint, classification: string, deposition_date: string, experimental_technique: string, macromolecule_type: string, ndb_id: string, pdb_doi: string, pdb_id: string, release_date: string, residue_count: bigint, resolution: double, revision_date: string, structure_molecular_weight: double, structure_title: string, v_structure_summary_ref_id: string]\n\u003cconsole\u003e:79: error: value registerTmpTable is not a member of org.apache.spark.sql.DataFrame\n              df.registerTmpTable(\"df\");\n                 ^\n"
+        "msg": "df: org.apache.spark.sql.DataFrame \u003d [atom_site_count: bigint, classification: string, deposition_date: string, experimental_technique: string, macromolecule_type: string, ndb_id: string, pdb_doi: string, pdb_id: string, release_date: string, residue_count: bigint, resolution: double, revision_date: string, structure_molecular_weight: double, structure_title: string, v_structure_summary_ref_id: string]\n"
       },
       "dateCreated": "Feb 28, 2016 1:34:52 PM",
-      "dateStarted": "Feb 28, 2016 2:35:52 PM",
-      "dateFinished": "Feb 28, 2016 2:35:52 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 2:36:13 PM",
+      "dateFinished": "Feb 28, 2016 2:36:14 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
