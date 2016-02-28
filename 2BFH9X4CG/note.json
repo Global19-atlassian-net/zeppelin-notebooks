@@ -70,7 +70,7 @@
     },
     {
       "text": "%md\nthe columns are :\n\nv_structure_summary_ref_id\":\"100D\",\n\"pdb_id\":\"100D\",\n\"structure_title\":\"CRYSTAL STRUCTURE OF THE HIGHLY DISTORTED CHIMERIC DECAMER R(C)D(CGGCGCCG)R(G)-SPERMINE COMPLEX-SPERMINE BINDING TO PHOSPHATE ONLY AND MINOR GROOVE TERTIARY BASE-PAIRING\",\n\"experimental_technique\":\"X-RAY DIFFRACTION\",\n\"ndb_id\":\"AHJ060\",\n\"resolution\":1.9,\n\"classification\":\"DNA-RNA HYBRID\",\n\"release_date\":\"1995-03-31\",\n\"deposition_date\":\"1994-12-05\"\n,\"revision_date\":\"2003-04-01#2009-02-24\",\n\"structure_molecular_weight\":6360.34,\n\"macromolecule_type\":\"DNA/RNA Hybrid\",\n\"residue_count\":20,\n\"atom_site_count\":0,\n\"pdb_doi\":\"10.2210/pdb100d/pdb\"\n",
-      "dateUpdated": "Feb 27, 2016 10:21:19 PM",
+      "dateUpdated": "Feb 27, 2016 10:25:30 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -83,7 +83,8 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
       },
       "settings": {
         "params": {},
