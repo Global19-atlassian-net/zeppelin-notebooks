@@ -26,11 +26,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch1\u003ePDB Statistics\u003c/h1\u003e\n"
+        "msg": "\u003ch1\u003ePDB Statistics\u003c/h1\u003e\n\u003cp\u003efirst, let\u0027s load some data\u003c/p\u003e\n"
       },
       "dateCreated": "Feb 27, 2016 2:05:23 PM",
-      "dateStarted": "Feb 27, 2016 10:34:49 PM",
-      "dateFinished": "Feb 27, 2016 10:34:49 PM",
+      "dateStarted": "Feb 27, 2016 11:18:56 PM",
+      "dateFinished": "Feb 27, 2016 11:18:56 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
