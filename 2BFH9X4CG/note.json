@@ -103,8 +103,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "ssummary.first()",
-      "dateUpdated": "Feb 27, 2016 11:09:52 PM",
+      "text": "ssummary.show()",
+      "dateUpdated": "Feb 27, 2016 11:10:43 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
