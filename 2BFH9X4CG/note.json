@@ -105,14 +105,14 @@
       "jobName": "paragraph_1456695201203_1192694980",
       "id": "20160228-133321_2042932855",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:1: error: unclosed character literal\n       var resolution \u003d ssummary(\u0027resolution\u0027)\n                                            ^\n"
+        "msg": "resolution: org.apache.spark.sql.Column \u003d resolution\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 2:14:33 PM",
-      "dateFinished": "Feb 28, 2016 2:14:33 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 2:14:39 PM",
+      "dateFinished": "Feb 28, 2016 2:14:40 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
