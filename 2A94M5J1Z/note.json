@@ -333,11 +333,11 @@
       "dateCreated": "Mar 26, 2015 9:46:58 PM",
       "dateStarted": "Feb 27, 2016 2:44:59 PM",
       "dateFinished": "Feb 27, 2016 2:44:59 PM",
-      "status": "FINISHED",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Feb 27, 2016 2:44:59 PM",
+      "dateUpdated": "Feb 27, 2016 4:13:56 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
