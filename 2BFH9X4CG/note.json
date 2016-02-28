@@ -150,7 +150,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Feb 28, 2016 2:36:29 PM",
+      "text": "%sql\n\ndesc df",
+      "dateUpdated": "Feb 28, 2016 2:36:43 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
@@ -162,7 +163,8 @@
           "groups": [],
           "scatter": {}
         },
-        "enabled": true
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
       },
       "settings": {
         "params": {},
@@ -178,6 +180,18 @@
       "dateStarted": "Feb 28, 2016 2:20:23 PM",
       "dateFinished": "Feb 28, 2016 2:20:23 PM",
       "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1456699003115_-1511969731",
+      "id": "20160228-143643_1781324116",
+      "dateCreated": "Feb 28, 2016 2:36:43 PM",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
