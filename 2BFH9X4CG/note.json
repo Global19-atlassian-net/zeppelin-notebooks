@@ -94,11 +94,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": ""
+        "msg": "defined class StrucSummary\nssummary: org.apache.spark.sql.DataFrame \u003d [v_structure_summary_ref_id: string, pdb_id: string, structure_title: string, experimentalTechnique: string, ndb_id: string, resolution: float, release_date: string, deposition_date: string, revision_date: string, molecular_weight: float, macromolecule_type: string, residue_count: int, atom_site_count: int, pdb_doi: string]\n"
       },
       "dateCreated": "Feb 27, 2016 10:24:31 PM",
-      "dateStarted": "Feb 28, 2016 8:23:40 AM",
-      "dateFinished": "Feb 28, 2016 8:23:40 AM",
+      "dateStarted": "Feb 28, 2016 8:35:38 AM",
+      "dateFinished": "Feb 28, 2016 8:35:42 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
