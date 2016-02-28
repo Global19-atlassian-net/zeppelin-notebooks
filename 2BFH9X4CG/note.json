@@ -35,8 +35,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "val sqlContext \u003d new org.apache.spark.sql.SQLContext(sc)\n\nval ssummary \u003d sqlContext.read.json(\"/home/ubuntu/GIT/dataframes/json/v_structure_summary.2015_08_10.json\");\n\n//ssummary.first();ssummary.printSchema();\n\nssummary.registerTempTable(\"ss\")\n\nssummary.printSchema();\n\nssummary.show();",
-      "dateUpdated": "Feb 28, 2016 2:28:49 PM",
+      "text": "val sqlContext \u003d new org.apache.spark.sql.SQLContext(sc)\n\nval ssummary \u003d sqlContext.read.json(\"/home/ubuntu/GIT/dataframes/json/v_structure_summary.2015_08_10.json\");\n\n//ssummary.first();ssummary.printSchema();\n\nssummary.registerTempTable(\"ssummary\")\n\nssummary.printSchema();\n\nssummary.show();",
+      "dateUpdated": "Feb 28, 2016 2:33:12 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
