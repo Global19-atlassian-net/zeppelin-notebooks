@@ -116,8 +116,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect resolution\nfrom ssummary",
-      "dateUpdated": "Feb 28, 2016 2:19:45 PM",
+      "text": "%sql \nselect resolution\nfrom ss",
+      "dateUpdated": "Feb 28, 2016 2:20:05 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
