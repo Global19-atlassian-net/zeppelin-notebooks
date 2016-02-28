@@ -128,12 +128,12 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:20: error: not found: type Date\n           deposition_date: Date,\n                            ^\n\u003cconsole\u003e:21: error: not found: type Date\n           revision_date: Date,\n                          ^\n\u003cconsole\u003e:22: error: not found: type FLoat\n           structure_molecular_weight: FLoat,\n                                       ^\n"
+        "msg": "\u003cconsole\u003e:20: error: not found: type Datetime\n           deposition_date: Datetime,\n                            ^\n\u003cconsole\u003e:21: error: not found: type Datetime\n           revision_date: Datetime,\n                          ^\n"
       },
       "dateCreated": "Feb 27, 2016 10:21:19 PM",
-      "dateStarted": "Feb 27, 2016 10:24:31 PM",
-      "dateFinished": "Feb 27, 2016 10:24:31 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 27, 2016 10:24:46 PM",
+      "dateFinished": "Feb 27, 2016 10:24:46 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
