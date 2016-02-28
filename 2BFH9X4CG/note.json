@@ -103,8 +103,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "case class StrucSummary(\n    v_structure_summary_ref_id: String, \n    pdb_id: String,\n    structure_title: String, \n    experimental_technique: String, \n    ndb_id: String,\n    resolution: Float,\n    deposition_date: Date,\n    revision_date: \n    \n    \n)",
-      "dateUpdated": "Feb 27, 2016 10:23:29 PM",
+      "text": "case class StrucSummary(\n    v_structure_summary_ref_id: String, \n    pdb_id: String,\n    structure_title: String, \n    experimental_technique: String, \n    ndb_id: String,\n    resolution: Float,\n    deposition_date: Date,\n    revision_date: Date,\n    structure_molecular_weight: FLoat,\n    macromolecule_type: String,\n    residue_count: Integer,\n    atom_site_count: Integer,\n    pdb_doi: String\n    \n)",
+      "dateUpdated": "Feb 27, 2016 10:24:31 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -126,6 +126,18 @@
       "jobName": "paragraph_1456640479867_2048378922",
       "id": "20160227-222119_2072361692",
       "dateCreated": "Feb 27, 2016 10:21:19 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1456640671105_156612909",
+      "id": "20160227-222431_2071567119",
+      "dateCreated": "Feb 27, 2016 10:24:31 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
