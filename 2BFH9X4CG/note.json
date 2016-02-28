@@ -103,8 +103,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect \"experimental_technique\"\nfrom ssummary \ngroup by resolution \norder by resolution",
-      "dateUpdated": "Feb 27, 2016 11:16:59 PM",
+      "text": "%sql \nselect macromolecule_type, count(1) value\nfrom ssummary \ngroup by resolution \norder by resolution",
+      "dateUpdated": "Feb 27, 2016 11:18:02 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
