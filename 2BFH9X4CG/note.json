@@ -70,8 +70,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "ssummary.rdd.maxBy(s \u003d\u003e resolution)\n\n",
-      "dateUpdated": "Feb 28, 2016 2:08:52 PM",
+      "text": "ssummary.select([mean(\u0027resolution\u0027), min(\u0027resolution\u0027), max(\u0027resolution\u0027)]).show()\n",
+      "dateUpdated": "Feb 28, 2016 2:10:12 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
