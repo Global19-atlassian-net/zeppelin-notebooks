@@ -103,8 +103,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect molecular_weight, residue_count\nfrom ssummary\nlimit 1\n",
-      "dateUpdated": "Feb 28, 2016 8:19:35 AM",
+      "text": "ssummary.printSchema()",
+      "dateUpdated": "Feb 28, 2016 8:22:26 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
