@@ -69,40 +69,6 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "ssummary.registerTempTable(\"ssummary\")\n\n",
-      "dateUpdated": "Feb 28, 2016 1:33:21 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/scala"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1456695039481_-1653890277",
-      "id": "20160228-133039_161256553",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": ""
-      },
-      "dateCreated": "Feb 28, 2016 1:30:39 PM",
-      "dateStarted": "Feb 28, 2016 1:33:21 PM",
-      "dateFinished": "Feb 28, 2016 1:33:21 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "config": {},
       "settings": {
         "params": {},
