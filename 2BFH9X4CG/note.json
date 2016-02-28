@@ -107,11 +107,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "res241: org.apache.spark.sql.DataFrame \u003d [max(resolution): double]\n"
+        "msg": "+---------------+\n|max(resolution)|\n+---------------+\n|           70.0|\n+---------------+\n\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 2:18:33 PM",
-      "dateFinished": "Feb 28, 2016 2:18:34 PM",
+      "dateStarted": "Feb 28, 2016 2:18:43 PM",
+      "dateFinished": "Feb 28, 2016 2:18:45 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
