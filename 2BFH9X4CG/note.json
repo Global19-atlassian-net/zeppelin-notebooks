@@ -58,14 +58,14 @@
       "jobName": "paragraph_1456610786820_179458407",
       "id": "20160227-140626_2047485672",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\nstructText: org.apache.spark.rdd.RDD[String] \u003d ParallelCollectionRDD[212] at parallelize at \u003cconsole\u003e:69\n\u003cconsole\u003e:69: error: value show is not a member of org.apache.spark.rdd.RDD[String]\n              structText.show();\n                         ^\n"
+        "msg": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\nstructText: org.apache.spark.rdd.RDD[String] \u003d ParallelCollectionRDD[213] at parallelize at \u003cconsole\u003e:73\nssummary: org.apache.spark.sql.DataFrame \u003d [_1: string]\n+--------------------+\n|                  _1|\n+--------------------+\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n|{\"v_structure_sum...|\n+--------------------+\nonly showing top 20 rows\n\n"
       },
       "dateCreated": "Feb 27, 2016 2:06:26 PM",
-      "dateStarted": "Feb 28, 2016 8:14:40 AM",
-      "dateFinished": "Feb 28, 2016 8:14:44 AM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 8:15:10 AM",
+      "dateFinished": "Feb 28, 2016 8:15:19 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
