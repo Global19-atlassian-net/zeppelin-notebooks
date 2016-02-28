@@ -104,8 +104,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "case class StrucSummary(\n    v_structure_summary_ref_id: String, \n    pdb_id: String,\n    structure_title: String, \n    experimental_technique: String, \n    ndb_id: String,\n    resolution: Float,\n    release_date: String,\n    deposition_date: String,\n    revision_date: String,\n    molecular_weight: Float,\n    macromolecule_type: String,\n    residue_count: Integer,\n    atom_site_count: Integer,\n    pdb_doi: String\n    \n)",
-      "dateUpdated": "Feb 27, 2016 10:34:49 PM",
+      "text": "case class StrucSummary(\n    v_structure_summary_ref_id: String (nullable \u003d false), \n    pdb_id: String  (nullable \u003d false),\n    structure_title: String, \n    experimental_technique: String, \n    ndb_id: String,\n    resolution: Float,\n    release_date: String,\n    deposition_date: String,\n    revision_date: String,\n    molecular_weight: Float,\n    macromolecule_type: String,\n    residue_count: Integer,\n    atom_site_count: Integer,\n    pdb_doi: String\n    \n)",
+      "dateUpdated": "Feb 27, 2016 10:39:35 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
