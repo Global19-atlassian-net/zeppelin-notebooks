@@ -71,17 +71,29 @@
     },
     {
       "text": "%sql \nselect count(*) from ssummary\n",
-      "dateUpdated": "Feb 28, 2016 1:38:45 PM",
+      "dateUpdated": "Feb 28, 2016 1:38:53 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "table",
+          "mode": "pieChart",
           "height": 300.0,
           "optionOpen": false,
-          "keys": [],
+          "keys": [
+            {
+              "name": "_c0",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
           "values": [],
           "groups": [],
-          "scatter": {}
+          "scatter": {
+            "xAxis": {
+              "name": "_c0",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          }
         },
         "enabled": true
       },
