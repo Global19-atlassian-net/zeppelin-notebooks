@@ -107,12 +107,12 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:1: error: identifier expected but symbol literal found.\n       var resolution \u003d ssummary[\u0027resolution\u0027]\n                                 ^\n\u003cconsole\u003e:1: error: unclosed character literal\n       var resolution \u003d ssummary[\u0027resolution\u0027]\n                                            ^\n"
+        "msg": "\u003cconsole\u003e:1: error: identifier expected but string literal found.\n       var resolution \u003d ssummary[\"resolution\"]\n                                 ^\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 2:13:37 PM",
-      "dateFinished": "Feb 28, 2016 2:13:37 PM",
-      "status": "ERROR",
+      "dateStarted": "Feb 28, 2016 2:13:51 PM",
+      "dateFinished": "Feb 28, 2016 2:13:51 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
