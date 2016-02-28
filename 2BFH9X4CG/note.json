@@ -112,12 +112,12 @@
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
       "dateStarted": "Feb 28, 2016 2:18:59 PM",
       "dateFinished": "Feb 28, 2016 2:19:03 PM",
-      "status": "FINISHED",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%sql \nselect resolution\nfrom ss",
-      "dateUpdated": "Feb 28, 2016 2:20:05 PM",
+      "dateUpdated": "Feb 28, 2016 2:20:12 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
