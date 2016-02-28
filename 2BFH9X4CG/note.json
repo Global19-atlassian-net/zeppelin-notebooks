@@ -105,13 +105,13 @@
       "jobName": "paragraph_1456695201203_1192694980",
       "id": "20160228-133321_2042932855",
       "result": {
-        "code": "SUCCESS",
+        "code": "ERROR",
         "type": "TEXT",
-        "msg": "resolution: org.apache.spark.sql.Column \u003d resolution\n"
+        "msg": "resolution: org.apache.spark.sql.Column \u003d resolution\n\u003cconsole\u003e:80: error: value min is not a member of org.apache.spark.sql.Column\n              resolution.min.show()\n                         ^\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 2:14:39 PM",
-      "dateFinished": "Feb 28, 2016 2:14:40 PM",
+      "dateStarted": "Feb 28, 2016 2:14:52 PM",
+      "dateFinished": "Feb 28, 2016 2:14:53 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
