@@ -155,7 +155,7 @@
       "config": {
         "colWidth": 6.0,
         "graph": {
-          "mode": "stackedAreaChart",
+          "mode": "lineChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [],
