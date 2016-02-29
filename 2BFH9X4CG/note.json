@@ -151,16 +151,16 @@
     },
     {
       "text": "%sql\n\nselect year(cast (release_date as date)) , count (1) value\nfrom df \ngroup by release_date\norder by release_date\n",
-      "dateUpdated": "Feb 28, 2016 10:54:47 PM",
+      "dateUpdated": "Feb 28, 2016 10:54:52 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
-          "mode": "scatterChart",
+          "mode": "multiBarChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
             {
-              "name": "release_date",
+              "name": "_c0",
               "index": 0.0,
               "aggr": "sum"
             }
@@ -174,11 +174,6 @@
           ],
           "groups": [],
           "scatter": {
-            "xAxis": {
-              "name": "release_date",
-              "index": 0.0,
-              "aggr": "sum"
-            },
             "yAxis": {
               "name": "value",
               "index": 1.0,
