@@ -65,8 +65,8 @@
       },
       "dateCreated": "Feb 27, 2016 10:33:08 PM",
       "dateStarted": "Feb 28, 2016 9:46:57 PM",
-      "dateFinished": "Feb 28, 2016 9:43:15 PM",
-      "status": "PENDING",
+      "dateFinished": "Feb 28, 2016 9:47:33 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -110,7 +110,7 @@
         "msg": "+---------------+\n|max(resolution)|\n+---------------+\n|           70.0|\n+---------------+\n\n+---------------+\n|min(resolution)|\n+---------------+\n|           0.48|\n+---------------+\n\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 9:40:52 PM",
+      "dateStarted": "Feb 28, 2016 9:46:59 PM",
       "dateFinished": "Feb 28, 2016 9:41:11 PM",
       "status": "PENDING",
       "progressUpdateIntervalMs": 500
