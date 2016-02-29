@@ -179,8 +179,8 @@
       },
       "dateCreated": "Feb 28, 2016 2:19:45 PM",
       "dateStarted": "Feb 28, 2016 9:19:02 PM",
-      "dateFinished": "Feb 28, 2016 2:37:10 PM",
-      "status": "PENDING",
+      "dateFinished": "Feb 28, 2016 9:19:03 PM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -204,8 +204,14 @@
       },
       "jobName": "paragraph_1456699003115_-1511969731",
       "id": "20160228-143643_1781324116",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT"
+      },
       "dateCreated": "Feb 28, 2016 2:36:43 PM",
-      "status": "PENDING",
+      "dateStarted": "Feb 28, 2016 9:19:03 PM",
+      "dateFinished": "Feb 28, 2016 9:19:03 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     }
   ],
