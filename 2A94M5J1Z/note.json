@@ -64,12 +64,12 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\nbankText: org.apache.spark.rdd.RDD[String] \u003d ParallelCollectionRDD[108] at parallelize at \u003cconsole\u003e:77\ndefined class Bank\nbank: org.apache.spark.sql.DataFrame \u003d [age: int, job: string, marital: string, education: string, balance: int]\nroot\n |-- age: integer (nullable \u003d true)\n |-- job: string (nullable \u003d true)\n |-- marital: string (nullable \u003d true)\n |-- education: string (nullable \u003d true)\n |-- balance: integer (nullable \u003d true)\n\n"
+        "msg": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\nbankText: org.apache.spark.rdd.RDD[String] \u003d ParallelCollectionRDD[106] at parallelize at \u003cconsole\u003e:37\ndefined class Bank\nbank: org.apache.spark.sql.DataFrame \u003d [age: int, job: string, marital: string, education: string, balance: int]\nroot\n |-- age: integer (nullable \u003d true)\n |-- job: string (nullable \u003d true)\n |-- marital: string (nullable \u003d true)\n |-- education: string (nullable \u003d true)\n |-- balance: integer (nullable \u003d true)\n\n"
       },
       "dateCreated": "Feb 10, 2015 1:52:59 AM",
       "dateStarted": "Feb 29, 2016 9:05:34 AM",
-      "dateFinished": "Feb 28, 2016 1:51:21 PM",
-      "status": "RUNNING",
+      "dateFinished": "Feb 29, 2016 9:05:39 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -354,7 +354,7 @@
       "dateCreated": "Jul 3, 2015 1:30:47 PM",
       "dateStarted": "Feb 27, 2016 10:27:54 PM",
       "dateFinished": "Feb 27, 2016 10:27:55 PM",
-      "status": "FINISHED",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     }
   ],
