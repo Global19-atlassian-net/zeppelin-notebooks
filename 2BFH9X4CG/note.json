@@ -150,8 +150,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\n\nselect cast (release_date as date) , count (1) value\nfrom df \ngroup by release_date\norder by release_date\n",
-      "dateUpdated": "Feb 28, 2016 10:53:22 PM",
+      "text": "%sql\n\nselect yeaer(cast (release_date as date)) , count (1) value\nfrom df \ngroup by release_date\norder by release_date\n",
+      "dateUpdated": "Feb 28, 2016 10:54:39 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
