@@ -222,9 +222,9 @@
         "type": "TEXT"
       },
       "dateCreated": "Feb 28, 2016 2:36:43 PM",
-      "dateStarted": "Feb 28, 2016 9:40:27 PM",
-      "dateFinished": "Feb 28, 2016 9:40:27 PM",
-      "status": "PENDING",
+      "dateStarted": "Feb 28, 2016 9:41:13 PM",
+      "dateFinished": "Feb 28, 2016 9:41:13 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     }
   ],
