@@ -192,11 +192,11 @@
       "dateCreated": "Feb 28, 2016 2:19:45 PM",
       "dateStarted": "Feb 28, 2016 9:22:04 PM",
       "dateFinished": "Feb 28, 2016 9:22:04 PM",
-      "status": "ERROR",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Feb 28, 2016 9:18:51 PM",
+      "dateUpdated": "Feb 28, 2016 9:22:44 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
