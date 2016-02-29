@@ -150,18 +150,41 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\n\nselect resolution, structure_molecular_weight from ssummary limit 1",
-      "dateUpdated": "Feb 28, 2016 9:48:23 PM",
+      "text": "%sql\n\nselect resolution, structure_molecular_weight from ssummary ",
+      "dateUpdated": "Feb 28, 2016 9:48:30 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
           "optionOpen": false,
-          "keys": [],
-          "values": [],
+          "keys": [
+            {
+              "name": "resolution",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "structure_molecular_weight",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
           "groups": [],
-          "scatter": {}
+          "scatter": {
+            "xAxis": {
+              "name": "resolution",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "structure_molecular_weight",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
         },
         "enabled": true,
         "editorMode": "ace/mode/sql"
