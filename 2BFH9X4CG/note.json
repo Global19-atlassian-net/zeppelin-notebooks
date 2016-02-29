@@ -151,20 +151,14 @@
     },
     {
       "text": "%sql\n\nselect year(cast (release_date as date)) as year , count (1) value\nfrom df \ngroup by release_date\norder by release_date\n",
-      "dateUpdated": "Feb 29, 2016 9:20:36 AM",
+      "dateUpdated": "Feb 29, 2016 9:26:19 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
-          "mode": "multiBarChart",
+          "mode": "table",
           "height": 300.0,
           "optionOpen": false,
-          "keys": [
-            {
-              "name": "_c0",
-              "index": 0.0,
-              "aggr": "sum"
-            }
-          ],
+          "keys": [],
           "values": [
             {
               "name": "value",
