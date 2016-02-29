@@ -151,11 +151,11 @@
     },
     {
       "text": "%sql\n\nselect resolution, cast (release_date as date) from df ",
-      "dateUpdated": "Feb 28, 2016 10:48:42 PM",
+      "dateUpdated": "Feb 28, 2016 10:49:07 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
-          "mode": "scatterChart",
+          "mode": "multiBarChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
@@ -165,23 +165,12 @@
               "aggr": "sum"
             }
           ],
-          "values": [
-            {
-              "name": "structure_molecular_weight",
-              "index": 1.0,
-              "aggr": "sum"
-            }
-          ],
+          "values": [],
           "groups": [],
           "scatter": {
             "xAxis": {
               "name": "resolution",
               "index": 0.0,
-              "aggr": "sum"
-            },
-            "yAxis": {
-              "name": "structure_molecular_weight",
-              "index": 1.0,
               "aggr": "sum"
             }
           }
