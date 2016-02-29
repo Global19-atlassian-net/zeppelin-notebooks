@@ -195,11 +195,11 @@
     },
     {
       "text": "%sql \nselect age, count(1) value \nfrom bank \nwhere marital\u003d\"${marital\u003dsingle,single|divorced|married}\" \ngroup by age \norder by age",
-      "dateUpdated": "Feb 29, 2016 9:06:27 AM",
+      "dateUpdated": "Feb 29, 2016 9:06:28 AM",
       "config": {
         "colWidth": 4.0,
         "graph": {
-          "mode": "pieChart",
+          "mode": "multiBarChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
