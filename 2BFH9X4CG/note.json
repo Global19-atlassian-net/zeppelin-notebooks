@@ -35,8 +35,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "val sqlContext \u003d new org.apache.spark.sql.SQLContext(sc)\n\n// needed to avoid http://stackoverflow.com/questions/30263646/sparksql-error-table-not-found\nimport sqlContext.implicits._\n\nval ssummary \u003d pdbStatsSqlContext.read.json(\"/home/ubuntu/GIT/dataframes/json/v_structure_summary.2015_08_10.json\");\n\n//ssummary.first();ssummary.printSchema();\n\n//ssummary.registerTempTable(\"ssummary\")\n\nssummary.printSchema();\n\nssummary.show();",
-      "dateUpdated": "Feb 28, 2016 9:33:59 PM",
+      "text": "val sqlContext \u003d new org.apache.spark.sql.SQLContext(sc)\n\n// needed to avoid http://stackoverflow.com/questions/30263646/sparksql-error-table-not-found\nimport sqlContext.implicits._\n\nval ssummary \u003d sqlContext.read.json(\"/home/ubuntu/GIT/dataframes/json/v_structure_summary.2015_08_10.json\");\n\n//ssummary.first();ssummary.printSchema();\n\n//ssummary.registerTempTable(\"ssummary\")\n\nssummary.printSchema();\n\nssummary.show();",
+      "dateUpdated": "Feb 28, 2016 9:37:17 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
