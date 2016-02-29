@@ -266,9 +266,9 @@
     },
     {
       "text": "%sql\n\nselect min(balance) \nfrom bank",
-      "dateUpdated": "Feb 29, 2016 9:09:15 AM",
+      "dateUpdated": "Feb 29, 2016 9:10:44 AM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 4.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
