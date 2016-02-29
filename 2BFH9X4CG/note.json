@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "%md \n\n# PDB Statistics\n\nfirst, let\u0027s load some data",
-      "dateUpdated": "Feb 28, 2016 9:46:56 PM",
+      "dateUpdated": "Feb 29, 2016 10:01:11 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -15,7 +15,8 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
       },
       "settings": {
         "params": {},
