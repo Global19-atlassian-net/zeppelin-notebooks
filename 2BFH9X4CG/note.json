@@ -151,7 +151,7 @@
     },
     {
       "text": "%sql\n\nselect * from df limit 1",
-      "dateUpdated": "Feb 28, 2016 9:22:44 PM",
+      "dateUpdated": "Feb 28, 2016 9:25:31 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
