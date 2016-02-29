@@ -112,12 +112,12 @@
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
       "dateStarted": "Feb 28, 2016 9:40:52 PM",
       "dateFinished": "Feb 28, 2016 9:41:11 PM",
-      "status": "FINISHED",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "var df \u003d ssummary.filter(ssummary(\"resolution\").isNotNull)\ndf.registerTempTable(\"df\")\n\ndf.printSchema()\n\nvar resWeight \u003d sqlContext.sql(\"select resolution, structure_molecular_weight  from df \");\n\n",
-      "dateUpdated": "Feb 28, 2016 9:44:04 PM",
+      "dateUpdated": "Feb 28, 2016 9:46:57 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
