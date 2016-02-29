@@ -191,8 +191,8 @@
       },
       "dateCreated": "Feb 28, 2016 2:19:45 PM",
       "dateStarted": "Feb 28, 2016 9:28:11 PM",
-      "dateFinished": "Feb 28, 2016 9:26:29 PM",
-      "status": "PENDING",
+      "dateFinished": "Feb 28, 2016 9:28:12 PM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {
