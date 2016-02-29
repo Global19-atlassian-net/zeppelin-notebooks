@@ -195,7 +195,7 @@
     },
     {
       "text": "%sql \nselect age, count(1) value \nfrom bank \nwhere marital\u003d\"${marital\u003dsingle,single|divorced|married}\" \ngroup by age \norder by age",
-      "dateUpdated": "Feb 29, 2016 9:05:58 AM",
+      "dateUpdated": "Feb 29, 2016 9:06:07 AM",
       "config": {
         "colWidth": 4.0,
         "graph": {
@@ -209,7 +209,13 @@
               "aggr": "sum"
             }
           ],
-          "values": [],
+          "values": [
+            {
+              "name": "value",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
           "groups": [],
           "scatter": {
             "xAxis": {
@@ -224,7 +230,7 @@
       },
       "settings": {
         "params": {
-          "marital": "divorced"
+          "marital": "married"
         },
         "forms": {
           "marital": {
