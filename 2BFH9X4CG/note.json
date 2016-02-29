@@ -191,8 +191,8 @@
       },
       "dateCreated": "Feb 28, 2016 2:19:45 PM",
       "dateStarted": "Feb 28, 2016 9:31:29 PM",
-      "dateFinished": "Feb 28, 2016 9:31:04 PM",
-      "status": "PENDING",
+      "dateFinished": "Feb 28, 2016 9:31:33 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -221,9 +221,9 @@
         "type": "TEXT"
       },
       "dateCreated": "Feb 28, 2016 2:36:43 PM",
-      "dateStarted": "Feb 28, 2016 9:28:12 PM",
-      "dateFinished": "Feb 28, 2016 9:28:12 PM",
-      "status": "PENDING",
+      "dateStarted": "Feb 28, 2016 9:31:31 PM",
+      "dateFinished": "Feb 28, 2016 9:31:34 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     }
   ],
