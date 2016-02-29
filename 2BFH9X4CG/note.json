@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "%md \n\n# PDB Statistics\n\nfirst, let\u0027s load some data",
-      "dateUpdated": "Feb 28, 2016 9:40:51 PM",
+      "dateUpdated": "Feb 28, 2016 9:46:56 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -192,7 +192,7 @@
       "dateCreated": "Feb 28, 2016 2:19:45 PM",
       "dateStarted": "Feb 28, 2016 9:43:10 PM",
       "dateFinished": "Feb 28, 2016 9:42:55 PM",
-      "status": "RUNNING",
+      "status": "ABORT",
       "progressUpdateIntervalMs": 500
     },
     {
