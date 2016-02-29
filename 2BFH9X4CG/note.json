@@ -29,14 +29,14 @@
         "msg": "\u003ch1\u003ePDB Statistics\u003c/h1\u003e\n\u003cp\u003efirst, let\u0027s load some data\u003c/p\u003e\n"
       },
       "dateCreated": "Feb 27, 2016 2:05:23 PM",
-      "dateStarted": "Feb 28, 2016 9:18:50 PM",
-      "dateFinished": "Feb 28, 2016 9:18:50 PM",
+      "dateStarted": "Feb 28, 2016 9:22:43 PM",
+      "dateFinished": "Feb 28, 2016 9:22:43 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "val sqlContext \u003d new org.apache.spark.sql.SQLContext(sc)\n\nval ssummary \u003d sqlContext.read.json(\"/home/ubuntu/GIT/dataframes/json/v_structure_summary.2015_08_10.json\");\n\n//ssummary.first();ssummary.printSchema();\n\nssummary.registerTempTable(\"ssummary\")\n\nssummary.printSchema();\n\nssummary.show();",
-      "dateUpdated": "Feb 28, 2016 9:18:50 PM",
+      "dateUpdated": "Feb 28, 2016 9:22:43 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
