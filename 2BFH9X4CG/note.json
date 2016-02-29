@@ -151,11 +151,11 @@
     },
     {
       "text": "%sql\n\nselect resolution, structure_molecular_weight from df ",
-      "dateUpdated": "Feb 28, 2016 9:49:44 PM",
+      "dateUpdated": "Feb 28, 2016 9:49:45 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
-          "mode": "pieChart",
+          "mode": "scatterChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
