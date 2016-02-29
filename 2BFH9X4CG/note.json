@@ -36,7 +36,7 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Feb 29, 2016 10:01:17 AM",
+      "dateUpdated": "Feb 29, 2016 10:01:18 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -50,7 +50,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
