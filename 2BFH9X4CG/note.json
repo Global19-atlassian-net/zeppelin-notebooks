@@ -155,7 +155,7 @@
       "config": {
         "colWidth": 6.0,
         "graph": {
-          "mode": "multiBarChart",
+          "mode": "table",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
