@@ -150,8 +150,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\n\nselect * from resolutions limit 1",
-      "dateUpdated": "Feb 28, 2016 9:20:43 PM",
+      "text": "%sql\n\nselect * from df limit 1",
+      "dateUpdated": "Feb 28, 2016 9:21:14 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
