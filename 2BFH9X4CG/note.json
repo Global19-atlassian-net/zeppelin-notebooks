@@ -112,12 +112,12 @@
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
       "dateStarted": "Feb 28, 2016 9:31:14 PM",
       "dateFinished": "Feb 28, 2016 9:31:29 PM",
-      "status": "FINISHED",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "// needed to avoid http://stackoverflow.com/questions/30263646/sparksql-error-table-not-found\nimport sqlContext.implicits._\n\n\nvar df \u003d ssummary.filter(ssummary(\"resolution\").isNotNull)\ndf.registerTempTable(\"df\")\n\n//df.printSchema()\n\nvar resWeight \u003d sqlContext.sql(\"select resolution, structure_molecular_weight  from df \");\n\n",
-      "dateUpdated": "Feb 28, 2016 9:33:44 PM",
+      "dateUpdated": "Feb 28, 2016 9:34:00 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
