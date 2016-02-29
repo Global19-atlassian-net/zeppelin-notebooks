@@ -91,7 +91,7 @@
     },
     {
       "text": "val ssummary \u003d sqlContext.read.json(\"/home/ubuntu/GIT/dataframes/json/v_structure_summary.2015_08_10.json\");\n\n//ssummary.first();ssummary.printSchema();\n\nssummary.registerTempTable(\"ssummary\")\n\nssummary.printSchema();\n\nssummary.show();",
-      "dateUpdated": "Feb 29, 2016 10:01:12 AM",
+      "dateUpdated": "Feb 29, 2016 10:01:13 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -106,7 +106,7 @@
         "enabled": true,
         "editorMode": "ace/mode/scala",
         "lineNumbers": true,
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
