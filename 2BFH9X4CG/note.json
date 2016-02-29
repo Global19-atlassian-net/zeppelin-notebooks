@@ -150,18 +150,41 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\n\ndesc ssummary",
-      "dateUpdated": "Feb 28, 2016 9:19:32 PM",
+      "text": "%sql\n\nselect from ssummary limit 1",
+      "dateUpdated": "Feb 28, 2016 9:19:45 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
           "optionOpen": false,
-          "keys": [],
-          "values": [],
+          "keys": [
+            {
+              "name": "col_name",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "data_type",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
           "groups": [],
-          "scatter": {}
+          "scatter": {
+            "xAxis": {
+              "name": "col_name",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "data_type",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
         },
         "enabled": true,
         "editorMode": "ace/mode/sql"
