@@ -150,8 +150,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\n\ndesc resolutions",
-      "dateUpdated": "Feb 28, 2016 9:18:51 PM",
+      "text": "%sql\n\ndesc ssummary",
+      "dateUpdated": "Feb 28, 2016 9:19:32 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
