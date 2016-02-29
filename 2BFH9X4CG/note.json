@@ -116,8 +116,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "import pdbStatsSqlContext.implicits._\n\nvar df \u003d ssummary.filter(ssummary(\"resolution\").isNotNull)\ndf.registerTempTable(\"df\")\n\ndf.printSchema()\n\nvar resWeight \u003d sqlContext.sql(\"select resolution, structure_molecular_weight  from df \");\n\n\n",
-      "dateUpdated": "Feb 28, 2016 9:29:52 PM",
+      "text": "import pdbStatsSqlContext.implicits._\n\nvar df \u003d ssummary.filter(ssummary(\"resolution\").isNotNull)\ndf.registerTempTable(\"df\")\n\n//df.printSchema()\n\nvar resWeight \u003d sqlContext.sql(\"select resolution, structure_molecular_weight  from df \");\n\n\n",
+      "dateUpdated": "Feb 28, 2016 9:30:12 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
