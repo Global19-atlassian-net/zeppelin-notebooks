@@ -141,11 +141,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "import pdbStatsSqlContext.implicits._\ndf: org.apache.spark.sql.DataFrame \u003d [atom_site_count: bigint, classification: string, deposition_date: string, experimental_technique: string, macromolecule_type: string, ndb_id: string, pdb_doi: string, pdb_id: string, release_date: string, residue_count: bigint, resolution: double, revision_date: string, structure_molecular_weight: double, structure_title: string, v_structure_summary_ref_id: string]\nroot\n |-- atom_site_count: long (nullable \u003d true)\n |-- classification: string (nullable \u003d true)\n |-- deposition_date: string (nullable \u003d true)\n |-- experimental_technique: string (nullable \u003d true)\n |-- macromolecule_type: string (nullable \u003d true)\n |-- ndb_id: string (nullable \u003d true)\n |-- pdb_doi: string (nullable \u003d true)\n |-- pdb_id: string (nullable \u003d true)\n |-- release_date: string (nullable \u003d true)\n |-- residue_count: long (nullable \u003d true)\n |-- resolution: double (nullable \u003d true)\n |-- revision_date: string (nullable \u003d true)\n |-- structure_molecular_weight: double (nullable \u003d true)\n |-- structure_title: string (nullable \u003d true)\n |-- v_structure_summary_ref_id: string (nullable \u003d true)\n\nresWeight: org.apache.spark.sql.DataFrame \u003d [resolution: double, structure_molecular_weight: double]\n"
+        "msg": "import pdbStatsSqlContext.implicits._\ndf: org.apache.spark.sql.DataFrame \u003d [atom_site_count: bigint, classification: string, deposition_date: string, experimental_technique: string, macromolecule_type: string, ndb_id: string, pdb_doi: string, pdb_id: string, release_date: string, residue_count: bigint, resolution: double, revision_date: string, structure_molecular_weight: double, structure_title: string, v_structure_summary_ref_id: string]\nresWeight: org.apache.spark.sql.DataFrame \u003d [resolution: double, structure_molecular_weight: double]\n"
       },
       "dateCreated": "Feb 28, 2016 1:34:52 PM",
-      "dateStarted": "Feb 28, 2016 9:29:52 PM",
-      "dateFinished": "Feb 28, 2016 9:29:53 PM",
+      "dateStarted": "Feb 28, 2016 9:30:12 PM",
+      "dateFinished": "Feb 28, 2016 9:30:15 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
