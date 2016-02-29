@@ -146,12 +146,12 @@
       "dateCreated": "Feb 28, 2016 1:34:52 PM",
       "dateStarted": "Feb 28, 2016 9:30:12 PM",
       "dateFinished": "Feb 28, 2016 9:30:15 PM",
-      "status": "FINISHED",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%sql\n\nselect * from ssummary limit 1",
-      "dateUpdated": "Feb 28, 2016 9:31:01 PM",
+      "dateUpdated": "Feb 28, 2016 9:31:14 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
