@@ -174,7 +174,7 @@
     },
     {
       "text": "var df \u003d ssummary.filter(ssummary(\"resolution\").isNotNull)\ndf.registerTempTable(\"df\")\n\ndf.printSchema()\n\nvar resWeight \u003d sqlContext.sql(\"select resolution, structure_molecular_weight  from df \");\n\n",
-      "dateUpdated": "Feb 29, 2016 10:01:12 AM",
+      "dateUpdated": "Feb 29, 2016 10:01:13 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -188,7 +188,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
