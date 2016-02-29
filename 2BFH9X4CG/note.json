@@ -110,7 +110,7 @@
         "msg": "+---------------+\n|max(resolution)|\n+---------------+\n|           70.0|\n+---------------+\n\n+---------------+\n|min(resolution)|\n+---------------+\n|           0.48|\n+---------------+\n\n"
       },
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
-      "dateStarted": "Feb 28, 2016 9:34:00 PM",
+      "dateStarted": "Feb 28, 2016 9:40:07 PM",
       "dateFinished": "Feb 28, 2016 9:34:14 PM",
       "status": "PENDING",
       "progressUpdateIntervalMs": 500
@@ -192,11 +192,11 @@
       "dateCreated": "Feb 28, 2016 2:19:45 PM",
       "dateStarted": "Feb 28, 2016 9:39:18 PM",
       "dateFinished": "Feb 28, 2016 9:39:18 PM",
-      "status": "ERROR",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Feb 28, 2016 9:34:00 PM",
+      "dateUpdated": "Feb 28, 2016 9:40:07 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
