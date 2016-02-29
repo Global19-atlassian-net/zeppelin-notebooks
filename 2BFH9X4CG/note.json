@@ -127,7 +127,7 @@
     },
     {
       "text": "\nssummary.agg(max(\"resolution\")).show();\nssummary.agg(min(\"resolution\")).show();",
-      "dateUpdated": "Feb 28, 2016 9:46:57 PM",
+      "dateUpdated": "Feb 29, 2016 10:01:12 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -152,7 +152,8 @@
           }
         },
         "enabled": true,
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
       },
       "settings": {
         "params": {},
