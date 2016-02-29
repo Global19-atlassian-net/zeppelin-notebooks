@@ -151,11 +151,11 @@
     },
     {
       "text": "%sql\n\nselect resolution, structure_molecular_weight from ssummary ",
-      "dateUpdated": "Feb 28, 2016 9:48:33 PM",
+      "dateUpdated": "Feb 28, 2016 9:48:35 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
-          "mode": "multiBarChart",
+          "mode": "scatterChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
