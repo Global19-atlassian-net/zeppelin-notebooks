@@ -112,12 +112,12 @@
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
       "dateStarted": "Feb 28, 2016 2:20:12 PM",
       "dateFinished": "Feb 28, 2016 2:20:23 PM",
-      "status": "FINISHED",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "var resolutions \u003d ssummary.filter(ssummary(\"resolution\").isNotNull);\nresolutions.registerTempTable(\"resolutions\");\n\nresolutions.printSchema()\n\n\n",
-      "dateUpdated": "Feb 28, 2016 2:37:57 PM",
+      "dateUpdated": "Feb 28, 2016 9:18:51 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
