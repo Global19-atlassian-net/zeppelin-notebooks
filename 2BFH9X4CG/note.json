@@ -66,7 +66,7 @@
       "dateCreated": "Feb 27, 2016 10:33:08 PM",
       "dateStarted": "Feb 28, 2016 9:40:52 PM",
       "dateFinished": "Feb 28, 2016 9:40:20 PM",
-      "status": "PENDING",
+      "status": "RUNNING",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -192,11 +192,11 @@
       "dateCreated": "Feb 28, 2016 2:19:45 PM",
       "dateStarted": "Feb 28, 2016 9:40:26 PM",
       "dateFinished": "Feb 28, 2016 9:40:27 PM",
-      "status": "ERROR",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Feb 28, 2016 9:40:07 PM",
+      "dateUpdated": "Feb 28, 2016 9:40:52 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -208,7 +208,8 @@
           "groups": [],
           "scatter": {}
         },
-        "enabled": true
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
