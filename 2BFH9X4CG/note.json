@@ -112,12 +112,12 @@
       "dateCreated": "Feb 28, 2016 1:33:21 PM",
       "dateStarted": "Feb 28, 2016 9:18:51 PM",
       "dateFinished": "Feb 28, 2016 9:19:02 PM",
-      "status": "FINISHED",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "var df \u003d ssummary.filter(ssummary(\"resolution\").isNotNull)\ndf.registerTempTable(\"df\")\n\ndf.printSchema()\n\n\n",
-      "dateUpdated": "Feb 28, 2016 9:21:52 PM",
+      "dateUpdated": "Feb 28, 2016 9:22:44 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
