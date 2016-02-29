@@ -151,11 +151,11 @@
     },
     {
       "text": "%sql\n\nselect resolution, cast (release_date as date) from df ",
-      "dateUpdated": "Feb 28, 2016 10:49:07 PM",
+      "dateUpdated": "Feb 28, 2016 10:49:10 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
-          "mode": "multiBarChart",
+          "mode": "table",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
