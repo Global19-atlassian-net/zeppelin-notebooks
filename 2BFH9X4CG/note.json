@@ -151,13 +151,13 @@
     },
     {
       "text": "%sql\n\nselect resolution, structure_molecular_weight from df ",
-      "dateUpdated": "Feb 28, 2016 9:50:52 PM",
+      "dateUpdated": "Feb 28, 2016 9:50:59 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
           "mode": "scatterChart",
           "height": 300.0,
-          "optionOpen": true,
+          "optionOpen": false,
           "keys": [
             {
               "name": "resolution",
