@@ -66,12 +66,12 @@
       "dateCreated": "Feb 27, 2016 10:33:08 PM",
       "dateStarted": "Feb 28, 2016 9:40:07 PM",
       "dateFinished": "Feb 28, 2016 9:40:20 PM",
-      "status": "FINISHED",
+      "status": "PENDING",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "\nssummary.agg(max(\"resolution\")).show();\nssummary.agg(min(\"resolution\")).show();",
-      "dateUpdated": "Feb 28, 2016 9:40:07 PM",
+      "dateUpdated": "Feb 28, 2016 9:40:51 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
