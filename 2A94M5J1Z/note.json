@@ -265,18 +265,30 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\n\nselect max(balance) \nfrom bank",
-      "dateUpdated": "Feb 29, 2016 9:08:58 AM",
+      "text": "%sql\n\nselect min(balance) \nfrom bank",
+      "dateUpdated": "Feb 29, 2016 9:09:15 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
           "optionOpen": false,
-          "keys": [],
+          "keys": [
+            {
+              "name": "_c0",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
           "values": [],
           "groups": [],
-          "scatter": {}
+          "scatter": {
+            "xAxis": {
+              "name": "_c0",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          }
         },
         "enabled": true,
         "editorMode": "ace/mode/sql"
