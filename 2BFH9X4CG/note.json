@@ -71,9 +71,9 @@
     },
     {
       "text": "\nssummary.agg(max(\"resolution\")).show();\nssummary.agg(min(\"resolution\")).show();",
-      "dateUpdated": "Feb 28, 2016 9:18:51 PM",
+      "dateUpdated": "Feb 28, 2016 9:22:18 PM",
       "config": {
-        "colWidth": 4.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
